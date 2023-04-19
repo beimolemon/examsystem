@@ -1,0 +1,267 @@
+2022-12-14 21:03:56.937  INFO 4380 --- [restartedMain] com.mindskip.xzs.XzsApplication          : Starting XzsApplication on LAPTOP-E5OFK2RS with PID 4380 (started by 北陌柠 in D:\桌面\xzs-mysql\source\xzs)
+2022-12-14 21:03:56.939  INFO 4380 --- [restartedMain] com.mindskip.xzs.XzsApplication          : The following profiles are active: dev
+2022-12-14 21:03:57.001  INFO 4380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-14 21:03:57.001  INFO 4380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-14 21:03:58.263  WARN 4380 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-12-14 21:03:58.289  INFO 4380 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2022-12-14 21:03:58.290  INFO 4380 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1289 ms
+2022-12-14 21:03:59.161  INFO 4380 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ab1cf54, org.springframework.security.web.context.SecurityContextPersistenceFilter@4f2e0ecb, org.springframework.security.web.header.HeaderWriterFilter@14157b79, org.springframework.web.filter.CorsFilter@272f17e9, org.springframework.security.web.authentication.logout.LogoutFilter@fe3fbb2, com.mindskip.xzs.configuration.spring.security.RestLoginAuthenticationFilter@1c8c0a78, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6ecba22f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c556ddf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1393c49b, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@645165f6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@58353c96, org.springframework.security.web.session.SessionManagementFilter@d24684c, org.springframework.security.web.access.ExceptionTranslationFilter@75de71e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@ceec25b]
+2022-12-14 21:03:59.501  INFO 4380 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-14 21:03:59.545  INFO 4380 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
+2022-12-14 21:03:59.556  INFO 4380 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2022-12-14 21:03:59.607  INFO 4380 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8000 (http) with context path ''
+2022-12-14 21:03:59.609  INFO 4380 --- [restartedMain] com.mindskip.xzs.XzsApplication          : Started XzsApplication in 3.209 seconds (JVM running for 4.409)
+2022-12-14 21:04:38.502  INFO 4380 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-14 21:04:38.502  INFO 4380 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-14 21:04:38.510  INFO 4380 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2022-12-14 21:04:57.352  INFO 4380 --- [XNIO-1 task-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-14 21:04:57.469  INFO 4380 --- [XNIO-1 task-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-14 21:04:57.474 DEBUG 4380 --- [XNIO-1 task-2] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2022-12-14 21:04:57.500 DEBUG 4380 --- [XNIO-1 task-2] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: admin(String)
+2022-12-14 21:04:57.517 DEBUG 4380 --- [XNIO-1 task-2] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2022-12-14 21:04:58.035 DEBUG 4380 --- [XNIO-1 task-2] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2022-12-14 21:04:58.036 DEBUG 4380 --- [XNIO-1 task-2] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: admin(String)
+2022-12-14 21:04:58.038 DEBUG 4380 --- [XNIO-1 task-2] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2022-12-14 21:04:58.041 DEBUG 4380 --- [XNIO-1 task-2] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2022-12-14 21:04:58.041 DEBUG 4380 --- [XNIO-1 task-2] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: admin(String)
+2022-12-14 21:04:58.043 DEBUG 4380 --- [XNIO-1 task-2] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2022-12-14 21:04:58.055 DEBUG 4380 --- [XNIO-1 task-2] r.c.m.x.r.U.insertSelective              : ==>  Preparing: insert into t_user_event_log ( user_id, user_name, real_name, content, create_time ) values ( ?, ?, ?, ?, ? ) 
+2022-12-14 21:04:58.058 DEBUG 4380 --- [XNIO-1 task-2] r.c.m.x.r.U.insertSelective              : ==> Parameters: 2(Integer), admin(String), 管理员(String), admin 登录了学之思开源考试系统(String), 2022-12-14 21:04:58.043(Timestamp)
+2022-12-14 21:04:58.076 DEBUG 4380 --- [XNIO-1 task-2] r.c.m.x.r.U.insertSelective              : <==    Updates: 1
+2022-12-14 21:04:58.183 DEBUG 4380 --- [XNIO-1 task-3] r.c.m.x.r.E.selectAllCount               : ==>  Preparing: SELECT count(*) from t_exam_paper where deleted=0 
+2022-12-14 21:04:58.184 DEBUG 4380 --- [XNIO-1 task-3] r.c.m.x.r.E.selectAllCount               : ==> Parameters: 
+2022-12-14 21:04:58.189 DEBUG 4380 --- [XNIO-1 task-3] r.c.m.x.r.E.selectAllCount               : <==      Total: 1
+2022-12-14 21:04:58.190 DEBUG 4380 --- [XNIO-1 task-3] r.c.m.x.r.QuestionMapper.selectAllCount  : ==>  Preparing: SELECT count(*) from t_question where deleted=0 
+2022-12-14 21:04:58.190 DEBUG 4380 --- [XNIO-1 task-3] r.c.m.x.r.QuestionMapper.selectAllCount  : ==> Parameters: 
+2022-12-14 21:04:58.195 DEBUG 4380 --- [XNIO-1 task-3] r.c.m.x.r.QuestionMapper.selectAllCount  : <==      Total: 1
+2022-12-14 21:04:58.198 DEBUG 4380 --- [XNIO-1 task-3] r.c.m.x.r.E.selectAllCount               : ==>  Preparing: SELECT count(*) from t_exam_paper_answer 
+2022-12-14 21:04:58.198 DEBUG 4380 --- [XNIO-1 task-3] r.c.m.x.r.E.selectAllCount               : ==> Parameters: 
+2022-12-14 21:04:58.205 DEBUG 4380 --- [XNIO-1 task-3] r.c.m.x.r.E.selectAllCount               : <==      Total: 1
+2022-12-14 21:04:58.206 DEBUG 4380 --- [XNIO-1 task-3] r.c.m.x.r.E.selectAllCount               : ==>  Preparing: SELECT count(*) from t_exam_paper_question_customer_answer 
+2022-12-14 21:04:58.206 DEBUG 4380 --- [XNIO-1 task-3] r.c.m.x.r.E.selectAllCount               : ==> Parameters: 
+2022-12-14 21:04:58.213 DEBUG 4380 --- [XNIO-1 task-3] r.c.m.x.r.E.selectAllCount               : <==      Total: 1
+2022-12-14 21:04:58.220 DEBUG 4380 --- [XNIO-1 task-3] r.c.m.x.r.U.selectCountByDate            : ==>  Preparing: SELECT create_time as name,COUNT(create_time) as value from ( SELECT DATE_FORMAT(create_time,'%Y-%m-%d') as create_time from t_user_event_log WHERE create_time between ? and ? ) a GROUP BY create_time 
+2022-12-14 21:04:58.220 DEBUG 4380 --- [XNIO-1 task-3] r.c.m.x.r.U.selectCountByDate            : ==> Parameters: 2022-12-01 00:00:00.0(Timestamp), 2022-12-31 23:59:59.0(Timestamp)
+2022-12-14 21:04:58.224 DEBUG 4380 --- [XNIO-1 task-3] r.c.m.x.r.U.selectCountByDate            : <==      Total: 2
+2022-12-14 21:04:58.226 DEBUG 4380 --- [XNIO-1 task-3] r.c.m.x.r.E.selectCountByDate            : ==>  Preparing: SELECT create_time as name,COUNT(create_time) as value from ( SELECT DATE_FORMAT(create_time,'%Y-%m-%d') as create_time from t_exam_paper_question_customer_answer WHERE create_time between ? and ? ) a GROUP BY create_time 
+2022-12-14 21:04:58.226 DEBUG 4380 --- [XNIO-1 task-3] r.c.m.x.r.E.selectCountByDate            : ==> Parameters: 2022-12-01 00:00:00.0(Timestamp), 2022-12-31 23:59:59.0(Timestamp)
+2022-12-14 21:04:58.230 DEBUG 4380 --- [XNIO-1 task-3] r.c.m.x.r.E.selectCountByDate            : <==      Total: 1
+2022-12-14 21:06:40.608 DEBUG 4380 --- [XNIO-1 task-8] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2022-12-14 21:06:40.608 DEBUG 4380 --- [XNIO-1 task-8] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lisongze(String)
+2022-12-14 21:06:40.609 DEBUG 4380 --- [XNIO-1 task-8] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 0
+2022-12-14 21:06:40.642 DEBUG 4380 --- [XNIO-1 task-8] r.c.m.x.r.UserMapper.insertSelective     : ==>  Preparing: insert into t_user ( user_uuid, user_name, password, user_level, role, status, create_time, last_active_time, deleted ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2022-12-14 21:06:40.643 DEBUG 4380 --- [XNIO-1 task-8] r.c.m.x.r.UserMapper.insertSelective     : ==> Parameters: b824a22c-9ca2-4514-af21-0a3af5ffb2b2(String), lisongze(String), MGv4zUfyL+kxfaOKYTUHyCHdcwG6WlvAw9IgOZp6i9aAYYQsFo/+z1IP3LzLEH6jIMSMah2BnXza752D5hX+EX4cTecxKeCWY9cZpuElOCLvcTJ+er9HZCtVHMwtT8ThLfWlq5iFBvYhdsF/nh7A00/SqV2jabKC2j4Ge2hab1c=(String), 10(Integer), 1(Integer), 1(Integer), 2022-12-14 21:06:40.64(Timestamp), 2022-12-14 21:06:40.64(Timestamp), false(Boolean)
+2022-12-14 21:06:40.647 DEBUG 4380 --- [XNIO-1 task-8] r.c.m.x.r.UserMapper.insertSelective     : <==    Updates: 1
+2022-12-14 21:06:40.650 DEBUG 4380 --- [XNIO-1 task-8] r.c.m.x.r.U.insertSelective              : ==>  Preparing: insert into t_user_event_log ( user_id, user_name, content, create_time ) values ( ?, ?, ?, ? ) 
+2022-12-14 21:06:40.650 DEBUG 4380 --- [XNIO-1 task-8] r.c.m.x.r.U.insertSelective              : ==> Parameters: 3(Integer), lisongze(String), 欢迎 lisongze 注册来到学之思开源考试系统(String), 2022-12-14 21:06:40.649(Timestamp)
+2022-12-14 21:06:40.654 DEBUG 4380 --- [XNIO-1 task-8] r.c.m.x.r.U.insertSelective              : <==    Updates: 1
+2022-12-14 21:06:49.117 DEBUG 4380 --- [XNIO-1 task-9] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2022-12-14 21:06:49.117 DEBUG 4380 --- [XNIO-1 task-9] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lisongze(String)
+2022-12-14 21:06:49.119 DEBUG 4380 --- [XNIO-1 task-9] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2022-12-14 21:06:49.125 DEBUG 4380 --- [XNIO-1 task-9] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2022-12-14 21:06:49.125 DEBUG 4380 --- [XNIO-1 task-9] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lisongze(String)
+2022-12-14 21:06:49.126 DEBUG 4380 --- [XNIO-1 task-9] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2022-12-14 21:06:49.127 DEBUG 4380 --- [XNIO-1 task-9] r.c.m.x.r.U.insertSelective              : ==>  Preparing: insert into t_user_event_log ( user_id, user_name, content, create_time ) values ( ?, ?, ?, ? ) 
+2022-12-14 21:06:49.128 DEBUG 4380 --- [XNIO-1 task-9] r.c.m.x.r.U.insertSelective              : ==> Parameters: 3(Integer), lisongze(String), lisongze 登录了学之思开源考试系统(String), 2022-12-14 21:06:49.126(Timestamp)
+2022-12-14 21:06:49.132 DEBUG 4380 --- [XNIO-1 task-9] r.c.m.x.r.U.insertSelective              : <==    Updates: 1
+2022-12-14 21:06:49.213 DEBUG 4380 --- [XNIO-1 task-11] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2022-12-14 21:06:49.215 DEBUG 4380 --- [XNIO-1 task-11] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lisongze(String)
+2022-12-14 21:06:49.215 DEBUG 4380 --- [XNIO-1 task-10] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2022-12-14 21:06:49.215 DEBUG 4380 --- [XNIO-1 task-10] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lisongze(String)
+2022-12-14 21:06:49.216 DEBUG 4380 --- [XNIO-1 task-11] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2022-12-14 21:06:49.216 DEBUG 4380 --- [XNIO-1 task-10] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2022-12-14 21:06:49.218 DEBUG 4380 --- [XNIO-1 task-10] r.c.m.x.r.MessageUserMapper.unReadCount  : ==>  Preparing: select count(*) from t_message_user where readed='f' and receive_user_id = ? 
+2022-12-14 21:06:49.218 DEBUG 4380 --- [XNIO-1 task-10] r.c.m.x.r.MessageUserMapper.unReadCount  : ==> Parameters: 3(Integer)
+2022-12-14 21:06:49.231 DEBUG 4380 --- [XNIO-1 task-10] r.c.m.x.r.MessageUserMapper.unReadCount  : <==      Total: 1
+2022-12-14 21:06:49.532 DEBUG 4380 --- [XNIO-1 task-13] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2022-12-14 21:06:49.533 DEBUG 4380 --- [XNIO-1 task-13] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lisongze(String)
+2022-12-14 21:06:49.533 DEBUG 4380 --- [XNIO-1 task-12] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2022-12-14 21:06:49.533 DEBUG 4380 --- [XNIO-1 task-12] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lisongze(String)
+2022-12-14 21:06:49.535 DEBUG 4380 --- [XNIO-1 task-12] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2022-12-14 21:06:49.538 DEBUG 4380 --- [XNIO-1 task-13] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2022-12-14 21:06:49.540 DEBUG 4380 --- [XNIO-1 task-13] r.c.m.x.r.T.getByGradeLevel              : ==>  Preparing: select id, title, grade_level, frame_text_content_id, create_user, create_time, deleted, create_user_name from t_task_exam where deleted=0 and grade_level = ? 
+2022-12-14 21:06:49.541 DEBUG 4380 --- [XNIO-1 task-13] r.c.m.x.r.T.getByGradeLevel              : ==> Parameters: 10(Integer)
+2022-12-14 21:06:49.543 DEBUG 4380 --- [XNIO-1 task-12] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==>  Preparing: SELECT id,name,limit_start_time,limit_end_time FROM t_exam_paper WHERE deleted=0 and paper_type= ? and grade_level=? ORDER BY id desc limit 5 
+2022-12-14 21:06:49.543 DEBUG 4380 --- [XNIO-1 task-12] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==> Parameters: 1(Integer), 10(Integer)
+2022-12-14 21:06:49.545 DEBUG 4380 --- [XNIO-1 task-12] r.c.m.x.r.ExamPaperMapper.indexPaper     : <==      Total: 0
+2022-12-14 21:06:49.546 DEBUG 4380 --- [XNIO-1 task-12] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==>  Preparing: SELECT id,name,limit_start_time,limit_end_time FROM t_exam_paper WHERE deleted=0 and paper_type= ? and grade_level=? and ? between limit_start_time and limit_end_time ORDER BY id desc limit 5 
+2022-12-14 21:06:49.547 DEBUG 4380 --- [XNIO-1 task-12] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==> Parameters: 4(Integer), 10(Integer), 2022-12-14 21:06:49.545(Timestamp)
+2022-12-14 21:06:49.547 DEBUG 4380 --- [XNIO-1 task-13] r.c.m.x.r.T.getByGradeLevel              : <==      Total: 0
+2022-12-14 21:06:49.548 DEBUG 4380 --- [XNIO-1 task-12] r.c.m.x.r.ExamPaperMapper.indexPaper     : <==      Total: 0
+2022-12-14 21:07:01.479 DEBUG 4380 --- [XNIO-1 task-14] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2022-12-14 21:07:01.480 DEBUG 4380 --- [XNIO-1 task-14] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lisongze(String)
+2022-12-14 21:07:01.481 DEBUG 4380 --- [XNIO-1 task-14] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2022-12-14 21:07:01.482 DEBUG 4380 --- [XNIO-1 task-14] r.c.m.x.r.S.getSubjectByLevel            : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where level= ? order by item_order 
+2022-12-14 21:07:01.482 DEBUG 4380 --- [XNIO-1 task-14] r.c.m.x.r.S.getSubjectByLevel            : ==> Parameters: 10(Integer)
+2022-12-14 21:07:01.485 DEBUG 4380 --- [XNIO-1 task-14] r.c.m.x.r.S.getSubjectByLevel            : <==      Total: 0
+2022-12-14 21:07:02.682 DEBUG 4380 --- [XNIO-1 task-15] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2022-12-14 21:07:02.683 DEBUG 4380 --- [XNIO-1 task-15] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lisongze(String)
+2022-12-14 21:07:02.684 DEBUG 4380 --- [XNIO-1 task-15] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2022-12-14 21:07:02.708 DEBUG 4380 --- [XNIO-1 task-15] r.c.m.x.r.E.studentPage_COUNT            : ==>  Preparing: SELECT count(0) FROM t_exam_paper_answer WHERE create_user = ? 
+2022-12-14 21:07:02.708 DEBUG 4380 --- [XNIO-1 task-15] r.c.m.x.r.E.studentPage_COUNT            : ==> Parameters: 3(Integer)
+2022-12-14 21:07:02.709 DEBUG 4380 --- [XNIO-1 task-15] r.c.m.x.r.E.studentPage_COUNT            : <==      Total: 1
+2022-12-14 21:07:04.258 DEBUG 4380 --- [XNIO-1 task-16] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2022-12-14 21:07:04.258 DEBUG 4380 --- [XNIO-1 task-16] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lisongze(String)
+2022-12-14 21:07:04.259 DEBUG 4380 --- [XNIO-1 task-16] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2022-12-14 21:07:04.261 DEBUG 4380 --- [XNIO-1 task-16] r.c.m.x.r.E.studentPage_COUNT            : ==>  Preparing: SELECT count(0) FROM t_exam_paper_question_customer_answer WHERE do_right = FALSE AND create_user = ? 
+2022-12-14 21:07:04.261 DEBUG 4380 --- [XNIO-1 task-16] r.c.m.x.r.E.studentPage_COUNT            : ==> Parameters: 3(Integer)
+2022-12-14 21:07:04.261 DEBUG 4380 --- [XNIO-1 task-16] r.c.m.x.r.E.studentPage_COUNT            : <==      Total: 1
+2022-12-14 21:07:05.047 DEBUG 4380 --- [XNIO-1 task-17] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2022-12-14 21:07:05.047 DEBUG 4380 --- [XNIO-1 task-17] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lisongze(String)
+2022-12-14 21:07:05.048 DEBUG 4380 --- [XNIO-1 task-17] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2022-12-14 21:07:05.049 DEBUG 4380 --- [XNIO-1 task-17] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==>  Preparing: SELECT id,name,limit_start_time,limit_end_time FROM t_exam_paper WHERE deleted=0 and paper_type= ? and grade_level=? ORDER BY id desc limit 5 
+2022-12-14 21:07:05.050 DEBUG 4380 --- [XNIO-1 task-17] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==> Parameters: 1(Integer), 10(Integer)
+2022-12-14 21:07:05.052 DEBUG 4380 --- [XNIO-1 task-17] r.c.m.x.r.ExamPaperMapper.indexPaper     : <==      Total: 0
+2022-12-14 21:07:05.052 DEBUG 4380 --- [XNIO-1 task-17] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==>  Preparing: SELECT id,name,limit_start_time,limit_end_time FROM t_exam_paper WHERE deleted=0 and paper_type= ? and grade_level=? and ? between limit_start_time and limit_end_time ORDER BY id desc limit 5 
+2022-12-14 21:07:05.053 DEBUG 4380 --- [XNIO-1 task-17] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==> Parameters: 4(Integer), 10(Integer), 2022-12-14 21:07:05.052(Timestamp)
+2022-12-14 21:07:05.054 DEBUG 4380 --- [XNIO-1 task-17] r.c.m.x.r.ExamPaperMapper.indexPaper     : <==      Total: 0
+2022-12-14 21:07:05.355 DEBUG 4380 --- [XNIO-1 task-18] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2022-12-14 21:07:05.355 DEBUG 4380 --- [XNIO-1 task-18] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lisongze(String)
+2022-12-14 21:07:05.356 DEBUG 4380 --- [XNIO-1 task-18] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2022-12-14 21:07:05.357 DEBUG 4380 --- [XNIO-1 task-18] r.c.m.x.r.T.getByGradeLevel              : ==>  Preparing: select id, title, grade_level, frame_text_content_id, create_user, create_time, deleted, create_user_name from t_task_exam where deleted=0 and grade_level = ? 
+2022-12-14 21:07:05.357 DEBUG 4380 --- [XNIO-1 task-18] r.c.m.x.r.T.getByGradeLevel              : ==> Parameters: 10(Integer)
+2022-12-14 21:07:05.358 DEBUG 4380 --- [XNIO-1 task-18] r.c.m.x.r.T.getByGradeLevel              : <==      Total: 0
+2022-12-14 21:07:25.319 DEBUG 4380 --- [XNIO-1 task-19] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2022-12-14 21:07:25.319 DEBUG 4380 --- [XNIO-1 task-20] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2022-12-14 21:07:25.319 DEBUG 4380 --- [XNIO-1 task-20] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lisongze(String)
+2022-12-14 21:07:25.319 DEBUG 4380 --- [XNIO-1 task-19] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lisongze(String)
+2022-12-14 21:07:25.321 DEBUG 4380 --- [XNIO-1 task-19] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2022-12-14 21:07:25.322 DEBUG 4380 --- [XNIO-1 task-20] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2022-12-14 21:07:25.323 DEBUG 4380 --- [XNIO-1 task-20] r.c.m.x.r.U.getUserEventLogByUserId      : ==>  Preparing: select id, user_id, user_name, real_name, content, create_time from t_user_event_log where user_id=? order by id desc limit 10 
+2022-12-14 21:07:25.323 DEBUG 4380 --- [XNIO-1 task-20] r.c.m.x.r.U.getUserEventLogByUserId      : ==> Parameters: 3(Integer)
+2022-12-14 21:07:25.329 DEBUG 4380 --- [XNIO-1 task-20] r.c.m.x.r.U.getUserEventLogByUserId      : <==      Total: 2
+2022-12-14 21:11:08.207 DEBUG 4380 --- [XNIO-1 task-21] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2022-12-14 21:11:08.208 DEBUG 4380 --- [XNIO-1 task-21] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lisongze(String)
+2022-12-14 21:11:08.208 DEBUG 4380 --- [XNIO-1 task-22] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2022-12-14 21:11:08.208 DEBUG 4380 --- [XNIO-1 task-22] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lisongze(String)
+2022-12-14 21:11:08.209 DEBUG 4380 --- [XNIO-1 task-21] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2022-12-14 21:11:08.209 DEBUG 4380 --- [XNIO-1 task-22] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2022-12-14 21:11:08.210 DEBUG 4380 --- [XNIO-1 task-21] r.c.m.x.r.T.getByGradeLevel              : ==>  Preparing: select id, title, grade_level, frame_text_content_id, create_user, create_time, deleted, create_user_name from t_task_exam where deleted=0 and grade_level = ? 
+2022-12-14 21:11:08.210 DEBUG 4380 --- [XNIO-1 task-22] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==>  Preparing: SELECT id,name,limit_start_time,limit_end_time FROM t_exam_paper WHERE deleted=0 and paper_type= ? and grade_level=? ORDER BY id desc limit 5 
+2022-12-14 21:11:08.210 DEBUG 4380 --- [XNIO-1 task-22] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==> Parameters: 1(Integer), 10(Integer)
+2022-12-14 21:11:08.210 DEBUG 4380 --- [XNIO-1 task-21] r.c.m.x.r.T.getByGradeLevel              : ==> Parameters: 10(Integer)
+2022-12-14 21:11:08.211 DEBUG 4380 --- [XNIO-1 task-22] r.c.m.x.r.ExamPaperMapper.indexPaper     : <==      Total: 0
+2022-12-14 21:11:08.211 DEBUG 4380 --- [XNIO-1 task-21] r.c.m.x.r.T.getByGradeLevel              : <==      Total: 0
+2022-12-14 21:11:08.212 DEBUG 4380 --- [XNIO-1 task-22] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==>  Preparing: SELECT id,name,limit_start_time,limit_end_time FROM t_exam_paper WHERE deleted=0 and paper_type= ? and grade_level=? and ? between limit_start_time and limit_end_time ORDER BY id desc limit 5 
+2022-12-14 21:11:08.212 DEBUG 4380 --- [XNIO-1 task-22] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==> Parameters: 4(Integer), 10(Integer), 2022-12-14 21:11:08.211(Timestamp)
+2022-12-14 21:11:08.213 DEBUG 4380 --- [XNIO-1 task-22] r.c.m.x.r.ExamPaperMapper.indexPaper     : <==      Total: 0
+2022-12-14 21:18:33.360 DEBUG 4380 --- [XNIO-1 task-24] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2022-12-14 21:18:33.360 DEBUG 4380 --- [XNIO-1 task-24] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: admin(String)
+2022-12-14 21:18:33.361 DEBUG 4380 --- [XNIO-1 task-24] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2022-12-14 21:18:33.364 DEBUG 4380 --- [XNIO-1 task-24] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2022-12-14 21:18:33.365 DEBUG 4380 --- [XNIO-1 task-24] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: admin(String)
+2022-12-14 21:18:33.367 DEBUG 4380 --- [XNIO-1 task-24] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2022-12-14 21:18:33.368 DEBUG 4380 --- [XNIO-1 task-24] r.c.m.x.r.U.insertSelective              : ==>  Preparing: insert into t_user_event_log ( user_id, user_name, real_name, content, create_time ) values ( ?, ?, ?, ?, ? ) 
+2022-12-14 21:18:33.368 DEBUG 4380 --- [XNIO-1 task-24] r.c.m.x.r.U.insertSelective              : ==> Parameters: 2(Integer), admin(String), 管理员(String), admin 登录了学之思开源考试系统(String), 2022-12-14 21:18:33.367(Timestamp)
+2022-12-14 21:18:33.371 DEBUG 4380 --- [XNIO-1 task-24] r.c.m.x.r.U.insertSelective              : <==    Updates: 1
+2022-12-14 21:18:33.607 DEBUG 4380 --- [XNIO-1 task-25] r.c.m.x.r.E.selectAllCount               : ==>  Preparing: SELECT count(*) from t_exam_paper where deleted=0 
+2022-12-14 21:18:33.607 DEBUG 4380 --- [XNIO-1 task-25] r.c.m.x.r.E.selectAllCount               : ==> Parameters: 
+2022-12-14 21:18:33.608 DEBUG 4380 --- [XNIO-1 task-25] r.c.m.x.r.E.selectAllCount               : <==      Total: 1
+2022-12-14 21:18:33.608 DEBUG 4380 --- [XNIO-1 task-25] r.c.m.x.r.QuestionMapper.selectAllCount  : ==>  Preparing: SELECT count(*) from t_question where deleted=0 
+2022-12-14 21:18:33.609 DEBUG 4380 --- [XNIO-1 task-25] r.c.m.x.r.QuestionMapper.selectAllCount  : ==> Parameters: 
+2022-12-14 21:18:33.609 DEBUG 4380 --- [XNIO-1 task-25] r.c.m.x.r.QuestionMapper.selectAllCount  : <==      Total: 1
+2022-12-14 21:18:33.609 DEBUG 4380 --- [XNIO-1 task-25] r.c.m.x.r.E.selectAllCount               : ==>  Preparing: SELECT count(*) from t_exam_paper_answer 
+2022-12-14 21:18:33.609 DEBUG 4380 --- [XNIO-1 task-25] r.c.m.x.r.E.selectAllCount               : ==> Parameters: 
+2022-12-14 21:18:33.610 DEBUG 4380 --- [XNIO-1 task-25] r.c.m.x.r.E.selectAllCount               : <==      Total: 1
+2022-12-14 21:18:33.610 DEBUG 4380 --- [XNIO-1 task-25] r.c.m.x.r.E.selectAllCount               : ==>  Preparing: SELECT count(*) from t_exam_paper_question_customer_answer 
+2022-12-14 21:18:33.610 DEBUG 4380 --- [XNIO-1 task-25] r.c.m.x.r.E.selectAllCount               : ==> Parameters: 
+2022-12-14 21:18:33.611 DEBUG 4380 --- [XNIO-1 task-25] r.c.m.x.r.E.selectAllCount               : <==      Total: 1
+2022-12-14 21:18:33.612 DEBUG 4380 --- [XNIO-1 task-25] r.c.m.x.r.U.selectCountByDate            : ==>  Preparing: SELECT create_time as name,COUNT(create_time) as value from ( SELECT DATE_FORMAT(create_time,'%Y-%m-%d') as create_time from t_user_event_log WHERE create_time between ? and ? ) a GROUP BY create_time 
+2022-12-14 21:18:33.612 DEBUG 4380 --- [XNIO-1 task-25] r.c.m.x.r.U.selectCountByDate            : ==> Parameters: 2022-12-01 00:00:00.0(Timestamp), 2022-12-31 23:59:59.0(Timestamp)
+2022-12-14 21:18:33.613 DEBUG 4380 --- [XNIO-1 task-25] r.c.m.x.r.U.selectCountByDate            : <==      Total: 2
+2022-12-14 21:18:33.614 DEBUG 4380 --- [XNIO-1 task-25] r.c.m.x.r.E.selectCountByDate            : ==>  Preparing: SELECT create_time as name,COUNT(create_time) as value from ( SELECT DATE_FORMAT(create_time,'%Y-%m-%d') as create_time from t_exam_paper_question_customer_answer WHERE create_time between ? and ? ) a GROUP BY create_time 
+2022-12-14 21:18:33.617 DEBUG 4380 --- [XNIO-1 task-25] r.c.m.x.r.E.selectCountByDate            : ==> Parameters: 2022-12-01 00:00:00.0(Timestamp), 2022-12-31 23:59:59.0(Timestamp)
+2022-12-14 21:18:33.620 DEBUG 4380 --- [XNIO-1 task-25] r.c.m.x.r.E.selectCountByDate            : <==      Total: 1
+2022-12-14 21:20:35.930 DEBUG 4380 --- [XNIO-1 task-26] r.c.m.x.r.E.selectAllCount               : ==>  Preparing: SELECT count(*) from t_exam_paper where deleted=0 
+2022-12-14 21:20:35.930 DEBUG 4380 --- [XNIO-1 task-26] r.c.m.x.r.E.selectAllCount               : ==> Parameters: 
+2022-12-14 21:20:35.931 DEBUG 4380 --- [XNIO-1 task-26] r.c.m.x.r.E.selectAllCount               : <==      Total: 1
+2022-12-14 21:20:35.933 DEBUG 4380 --- [XNIO-1 task-26] r.c.m.x.r.QuestionMapper.selectAllCount  : ==>  Preparing: SELECT count(*) from t_question where deleted=0 
+2022-12-14 21:20:35.933 DEBUG 4380 --- [XNIO-1 task-26] r.c.m.x.r.QuestionMapper.selectAllCount  : ==> Parameters: 
+2022-12-14 21:20:35.934 DEBUG 4380 --- [XNIO-1 task-26] r.c.m.x.r.QuestionMapper.selectAllCount  : <==      Total: 1
+2022-12-14 21:20:35.935 DEBUG 4380 --- [XNIO-1 task-26] r.c.m.x.r.E.selectAllCount               : ==>  Preparing: SELECT count(*) from t_exam_paper_answer 
+2022-12-14 21:20:35.935 DEBUG 4380 --- [XNIO-1 task-26] r.c.m.x.r.E.selectAllCount               : ==> Parameters: 
+2022-12-14 21:20:35.935 DEBUG 4380 --- [XNIO-1 task-26] r.c.m.x.r.E.selectAllCount               : <==      Total: 1
+2022-12-14 21:20:35.936 DEBUG 4380 --- [XNIO-1 task-26] r.c.m.x.r.E.selectAllCount               : ==>  Preparing: SELECT count(*) from t_exam_paper_question_customer_answer 
+2022-12-14 21:20:35.937 DEBUG 4380 --- [XNIO-1 task-26] r.c.m.x.r.E.selectAllCount               : ==> Parameters: 
+2022-12-14 21:20:35.939 DEBUG 4380 --- [XNIO-1 task-26] r.c.m.x.r.E.selectAllCount               : <==      Total: 1
+2022-12-14 21:20:35.942 DEBUG 4380 --- [XNIO-1 task-26] r.c.m.x.r.U.selectCountByDate            : ==>  Preparing: SELECT create_time as name,COUNT(create_time) as value from ( SELECT DATE_FORMAT(create_time,'%Y-%m-%d') as create_time from t_user_event_log WHERE create_time between ? and ? ) a GROUP BY create_time 
+2022-12-14 21:20:35.943 DEBUG 4380 --- [XNIO-1 task-26] r.c.m.x.r.U.selectCountByDate            : ==> Parameters: 2022-12-01 00:00:00.0(Timestamp), 2022-12-31 23:59:59.0(Timestamp)
+2022-12-14 21:20:35.944 DEBUG 4380 --- [XNIO-1 task-26] r.c.m.x.r.U.selectCountByDate            : <==      Total: 2
+2022-12-14 21:20:35.945 DEBUG 4380 --- [XNIO-1 task-26] r.c.m.x.r.E.selectCountByDate            : ==>  Preparing: SELECT create_time as name,COUNT(create_time) as value from ( SELECT DATE_FORMAT(create_time,'%Y-%m-%d') as create_time from t_exam_paper_question_customer_answer WHERE create_time between ? and ? ) a GROUP BY create_time 
+2022-12-14 21:20:35.945 DEBUG 4380 --- [XNIO-1 task-26] r.c.m.x.r.E.selectCountByDate            : ==> Parameters: 2022-12-01 00:00:00.0(Timestamp), 2022-12-31 23:59:59.0(Timestamp)
+2022-12-14 21:20:35.947 DEBUG 4380 --- [XNIO-1 task-26] r.c.m.x.r.E.selectCountByDate            : <==      Total: 1
+2022-12-14 21:24:59.592 DEBUG 4380 --- [XNIO-1 task-27] r.c.m.x.r.E.selectAllCount               : ==>  Preparing: SELECT count(*) from t_exam_paper where deleted=0 
+2022-12-14 21:24:59.592 DEBUG 4380 --- [XNIO-1 task-27] r.c.m.x.r.E.selectAllCount               : ==> Parameters: 
+2022-12-14 21:24:59.593 DEBUG 4380 --- [XNIO-1 task-27] r.c.m.x.r.E.selectAllCount               : <==      Total: 1
+2022-12-14 21:24:59.594 DEBUG 4380 --- [XNIO-1 task-27] r.c.m.x.r.QuestionMapper.selectAllCount  : ==>  Preparing: SELECT count(*) from t_question where deleted=0 
+2022-12-14 21:24:59.594 DEBUG 4380 --- [XNIO-1 task-27] r.c.m.x.r.QuestionMapper.selectAllCount  : ==> Parameters: 
+2022-12-14 21:24:59.595 DEBUG 4380 --- [XNIO-1 task-27] r.c.m.x.r.QuestionMapper.selectAllCount  : <==      Total: 1
+2022-12-14 21:24:59.595 DEBUG 4380 --- [XNIO-1 task-27] r.c.m.x.r.E.selectAllCount               : ==>  Preparing: SELECT count(*) from t_exam_paper_answer 
+2022-12-14 21:24:59.595 DEBUG 4380 --- [XNIO-1 task-27] r.c.m.x.r.E.selectAllCount               : ==> Parameters: 
+2022-12-14 21:24:59.596 DEBUG 4380 --- [XNIO-1 task-27] r.c.m.x.r.E.selectAllCount               : <==      Total: 1
+2022-12-14 21:24:59.596 DEBUG 4380 --- [XNIO-1 task-27] r.c.m.x.r.E.selectAllCount               : ==>  Preparing: SELECT count(*) from t_exam_paper_question_customer_answer 
+2022-12-14 21:24:59.596 DEBUG 4380 --- [XNIO-1 task-27] r.c.m.x.r.E.selectAllCount               : ==> Parameters: 
+2022-12-14 21:24:59.598 DEBUG 4380 --- [XNIO-1 task-27] r.c.m.x.r.E.selectAllCount               : <==      Total: 1
+2022-12-14 21:24:59.599 DEBUG 4380 --- [XNIO-1 task-27] r.c.m.x.r.U.selectCountByDate            : ==>  Preparing: SELECT create_time as name,COUNT(create_time) as value from ( SELECT DATE_FORMAT(create_time,'%Y-%m-%d') as create_time from t_user_event_log WHERE create_time between ? and ? ) a GROUP BY create_time 
+2022-12-14 21:24:59.600 DEBUG 4380 --- [XNIO-1 task-27] r.c.m.x.r.U.selectCountByDate            : ==> Parameters: 2022-12-01 00:00:00.0(Timestamp), 2022-12-31 23:59:59.0(Timestamp)
+2022-12-14 21:24:59.603 DEBUG 4380 --- [XNIO-1 task-27] r.c.m.x.r.U.selectCountByDate            : <==      Total: 2
+2022-12-14 21:24:59.604 DEBUG 4380 --- [XNIO-1 task-27] r.c.m.x.r.E.selectCountByDate            : ==>  Preparing: SELECT create_time as name,COUNT(create_time) as value from ( SELECT DATE_FORMAT(create_time,'%Y-%m-%d') as create_time from t_exam_paper_question_customer_answer WHERE create_time between ? and ? ) a GROUP BY create_time 
+2022-12-14 21:24:59.604 DEBUG 4380 --- [XNIO-1 task-27] r.c.m.x.r.E.selectCountByDate            : ==> Parameters: 2022-12-01 00:00:00.0(Timestamp), 2022-12-31 23:59:59.0(Timestamp)
+2022-12-14 21:24:59.605 DEBUG 4380 --- [XNIO-1 task-27] r.c.m.x.r.E.selectCountByDate            : <==      Total: 1
+2022-12-14 21:35:49.284 DEBUG 4380 --- [XNIO-1 task-29] r.c.m.x.r.E.selectAllCount               : ==>  Preparing: SELECT count(*) from t_exam_paper where deleted=0 
+2022-12-14 21:35:49.285 DEBUG 4380 --- [XNIO-1 task-29] r.c.m.x.r.E.selectAllCount               : ==> Parameters: 
+2022-12-14 21:35:49.287 DEBUG 4380 --- [XNIO-1 task-29] r.c.m.x.r.E.selectAllCount               : <==      Total: 1
+2022-12-14 21:35:49.287 DEBUG 4380 --- [XNIO-1 task-29] r.c.m.x.r.QuestionMapper.selectAllCount  : ==>  Preparing: SELECT count(*) from t_question where deleted=0 
+2022-12-14 21:35:49.288 DEBUG 4380 --- [XNIO-1 task-29] r.c.m.x.r.QuestionMapper.selectAllCount  : ==> Parameters: 
+2022-12-14 21:35:49.289 DEBUG 4380 --- [XNIO-1 task-29] r.c.m.x.r.QuestionMapper.selectAllCount  : <==      Total: 1
+2022-12-14 21:35:49.290 DEBUG 4380 --- [XNIO-1 task-29] r.c.m.x.r.E.selectAllCount               : ==>  Preparing: SELECT count(*) from t_exam_paper_answer 
+2022-12-14 21:35:49.290 DEBUG 4380 --- [XNIO-1 task-29] r.c.m.x.r.E.selectAllCount               : ==> Parameters: 
+2022-12-14 21:35:49.291 DEBUG 4380 --- [XNIO-1 task-29] r.c.m.x.r.E.selectAllCount               : <==      Total: 1
+2022-12-14 21:35:49.292 DEBUG 4380 --- [XNIO-1 task-29] r.c.m.x.r.E.selectAllCount               : ==>  Preparing: SELECT count(*) from t_exam_paper_question_customer_answer 
+2022-12-14 21:35:49.292 DEBUG 4380 --- [XNIO-1 task-29] r.c.m.x.r.E.selectAllCount               : ==> Parameters: 
+2022-12-14 21:35:49.293 DEBUG 4380 --- [XNIO-1 task-29] r.c.m.x.r.E.selectAllCount               : <==      Total: 1
+2022-12-14 21:35:49.293 DEBUG 4380 --- [XNIO-1 task-29] r.c.m.x.r.U.selectCountByDate            : ==>  Preparing: SELECT create_time as name,COUNT(create_time) as value from ( SELECT DATE_FORMAT(create_time,'%Y-%m-%d') as create_time from t_user_event_log WHERE create_time between ? and ? ) a GROUP BY create_time 
+2022-12-14 21:35:49.294 DEBUG 4380 --- [XNIO-1 task-29] r.c.m.x.r.U.selectCountByDate            : ==> Parameters: 2022-12-01 00:00:00.0(Timestamp), 2022-12-31 23:59:59.0(Timestamp)
+2022-12-14 21:35:49.297 DEBUG 4380 --- [XNIO-1 task-29] r.c.m.x.r.U.selectCountByDate            : <==      Total: 2
+2022-12-14 21:35:49.301 DEBUG 4380 --- [XNIO-1 task-29] r.c.m.x.r.E.selectCountByDate            : ==>  Preparing: SELECT create_time as name,COUNT(create_time) as value from ( SELECT DATE_FORMAT(create_time,'%Y-%m-%d') as create_time from t_exam_paper_question_customer_answer WHERE create_time between ? and ? ) a GROUP BY create_time 
+2022-12-14 21:35:49.303 DEBUG 4380 --- [XNIO-1 task-29] r.c.m.x.r.E.selectCountByDate            : ==> Parameters: 2022-12-01 00:00:00.0(Timestamp), 2022-12-31 23:59:59.0(Timestamp)
+2022-12-14 21:35:49.305 DEBUG 4380 --- [XNIO-1 task-29] r.c.m.x.r.E.selectCountByDate            : <==      Total: 1
+2022-12-14 21:38:06.687 DEBUG 4380 --- [XNIO-1 task-30] r.c.m.x.r.E.selectAllCount               : ==>  Preparing: SELECT count(*) from t_exam_paper where deleted=0 
+2022-12-14 21:38:06.687 DEBUG 4380 --- [XNIO-1 task-30] r.c.m.x.r.E.selectAllCount               : ==> Parameters: 
+2022-12-14 21:38:06.688 DEBUG 4380 --- [XNIO-1 task-30] r.c.m.x.r.E.selectAllCount               : <==      Total: 1
+2022-12-14 21:38:06.688 DEBUG 4380 --- [XNIO-1 task-30] r.c.m.x.r.QuestionMapper.selectAllCount  : ==>  Preparing: SELECT count(*) from t_question where deleted=0 
+2022-12-14 21:38:06.689 DEBUG 4380 --- [XNIO-1 task-30] r.c.m.x.r.QuestionMapper.selectAllCount  : ==> Parameters: 
+2022-12-14 21:38:06.689 DEBUG 4380 --- [XNIO-1 task-30] r.c.m.x.r.QuestionMapper.selectAllCount  : <==      Total: 1
+2022-12-14 21:38:06.690 DEBUG 4380 --- [XNIO-1 task-30] r.c.m.x.r.E.selectAllCount               : ==>  Preparing: SELECT count(*) from t_exam_paper_answer 
+2022-12-14 21:38:06.690 DEBUG 4380 --- [XNIO-1 task-30] r.c.m.x.r.E.selectAllCount               : ==> Parameters: 
+2022-12-14 21:38:06.691 DEBUG 4380 --- [XNIO-1 task-30] r.c.m.x.r.E.selectAllCount               : <==      Total: 1
+2022-12-14 21:38:06.692 DEBUG 4380 --- [XNIO-1 task-30] r.c.m.x.r.E.selectAllCount               : ==>  Preparing: SELECT count(*) from t_exam_paper_question_customer_answer 
+2022-12-14 21:38:06.692 DEBUG 4380 --- [XNIO-1 task-30] r.c.m.x.r.E.selectAllCount               : ==> Parameters: 
+2022-12-14 21:38:06.693 DEBUG 4380 --- [XNIO-1 task-30] r.c.m.x.r.E.selectAllCount               : <==      Total: 1
+2022-12-14 21:38:06.695 DEBUG 4380 --- [XNIO-1 task-30] r.c.m.x.r.U.selectCountByDate            : ==>  Preparing: SELECT create_time as name,COUNT(create_time) as value from ( SELECT DATE_FORMAT(create_time,'%Y-%m-%d') as create_time from t_user_event_log WHERE create_time between ? and ? ) a GROUP BY create_time 
+2022-12-14 21:38:06.696 DEBUG 4380 --- [XNIO-1 task-30] r.c.m.x.r.U.selectCountByDate            : ==> Parameters: 2022-12-01 00:00:00.0(Timestamp), 2022-12-31 23:59:59.0(Timestamp)
+2022-12-14 21:38:06.700 DEBUG 4380 --- [XNIO-1 task-30] r.c.m.x.r.U.selectCountByDate            : <==      Total: 2
+2022-12-14 21:38:06.702 DEBUG 4380 --- [XNIO-1 task-30] r.c.m.x.r.E.selectCountByDate            : ==>  Preparing: SELECT create_time as name,COUNT(create_time) as value from ( SELECT DATE_FORMAT(create_time,'%Y-%m-%d') as create_time from t_exam_paper_question_customer_answer WHERE create_time between ? and ? ) a GROUP BY create_time 
+2022-12-14 21:38:06.702 DEBUG 4380 --- [XNIO-1 task-30] r.c.m.x.r.E.selectCountByDate            : ==> Parameters: 2022-12-01 00:00:00.0(Timestamp), 2022-12-31 23:59:59.0(Timestamp)
+2022-12-14 21:38:06.703 DEBUG 4380 --- [XNIO-1 task-30] r.c.m.x.r.E.selectCountByDate            : <==      Total: 1
+2022-12-14 21:38:49.214 DEBUG 4380 --- [XNIO-1 task-31] r.c.m.x.r.E.selectAllCount               : ==>  Preparing: SELECT count(*) from t_exam_paper where deleted=0 
+2022-12-14 21:38:49.214 DEBUG 4380 --- [XNIO-1 task-31] r.c.m.x.r.E.selectAllCount               : ==> Parameters: 
+2022-12-14 21:38:49.215 DEBUG 4380 --- [XNIO-1 task-31] r.c.m.x.r.E.selectAllCount               : <==      Total: 1
+2022-12-14 21:38:49.216 DEBUG 4380 --- [XNIO-1 task-31] r.c.m.x.r.QuestionMapper.selectAllCount  : ==>  Preparing: SELECT count(*) from t_question where deleted=0 
+2022-12-14 21:38:49.216 DEBUG 4380 --- [XNIO-1 task-31] r.c.m.x.r.QuestionMapper.selectAllCount  : ==> Parameters: 
+2022-12-14 21:38:49.217 DEBUG 4380 --- [XNIO-1 task-31] r.c.m.x.r.QuestionMapper.selectAllCount  : <==      Total: 1
+2022-12-14 21:38:49.218 DEBUG 4380 --- [XNIO-1 task-31] r.c.m.x.r.E.selectAllCount               : ==>  Preparing: SELECT count(*) from t_exam_paper_answer 
+2022-12-14 21:38:49.218 DEBUG 4380 --- [XNIO-1 task-31] r.c.m.x.r.E.selectAllCount               : ==> Parameters: 
+2022-12-14 21:38:49.219 DEBUG 4380 --- [XNIO-1 task-31] r.c.m.x.r.E.selectAllCount               : <==      Total: 1
+2022-12-14 21:38:49.220 DEBUG 4380 --- [XNIO-1 task-31] r.c.m.x.r.E.selectAllCount               : ==>  Preparing: SELECT count(*) from t_exam_paper_question_customer_answer 
+2022-12-14 21:38:49.220 DEBUG 4380 --- [XNIO-1 task-31] r.c.m.x.r.E.selectAllCount               : ==> Parameters: 
+2022-12-14 21:38:49.221 DEBUG 4380 --- [XNIO-1 task-31] r.c.m.x.r.E.selectAllCount               : <==      Total: 1
+2022-12-14 21:38:49.221 DEBUG 4380 --- [XNIO-1 task-31] r.c.m.x.r.U.selectCountByDate            : ==>  Preparing: SELECT create_time as name,COUNT(create_time) as value from ( SELECT DATE_FORMAT(create_time,'%Y-%m-%d') as create_time from t_user_event_log WHERE create_time between ? and ? ) a GROUP BY create_time 
+2022-12-14 21:38:49.222 DEBUG 4380 --- [XNIO-1 task-31] r.c.m.x.r.U.selectCountByDate            : ==> Parameters: 2022-12-01 00:00:00.0(Timestamp), 2022-12-31 23:59:59.0(Timestamp)
+2022-12-14 21:38:49.223 DEBUG 4380 --- [XNIO-1 task-31] r.c.m.x.r.U.selectCountByDate            : <==      Total: 2
+2022-12-14 21:38:49.225 DEBUG 4380 --- [XNIO-1 task-31] r.c.m.x.r.E.selectCountByDate            : ==>  Preparing: SELECT create_time as name,COUNT(create_time) as value from ( SELECT DATE_FORMAT(create_time,'%Y-%m-%d') as create_time from t_exam_paper_question_customer_answer WHERE create_time between ? and ? ) a GROUP BY create_time 
+2022-12-14 21:38:49.225 DEBUG 4380 --- [XNIO-1 task-31] r.c.m.x.r.E.selectCountByDate            : ==> Parameters: 2022-12-01 00:00:00.0(Timestamp), 2022-12-31 23:59:59.0(Timestamp)
+2022-12-14 21:38:49.226 DEBUG 4380 --- [XNIO-1 task-31] r.c.m.x.r.E.selectCountByDate            : <==      Total: 1
+2022-12-14 21:40:58.724  INFO 4380 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-14 21:40:58.731  INFO 4380 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-14 21:40:58.734  INFO 4380 --- [Thread-11] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'

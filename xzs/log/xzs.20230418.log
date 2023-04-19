@@ -1,0 +1,1010 @@
+2023-04-18 18:50:18.635  INFO 22916 --- [restartedMain] com.mindskip.xzs.XzsApplication          : Starting XzsApplication on LAPTOP-E5OFK2RS with PID 22916 (started by 北陌柠 in F:\项目\云课堂相关的项目\xzs-mysql\source\xzs)
+2023-04-18 18:50:18.638  INFO 22916 --- [restartedMain] com.mindskip.xzs.XzsApplication          : The following profiles are active: dev
+2023-04-18 18:50:18.727  INFO 22916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-18 18:50:18.727  INFO 22916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-18 18:50:21.054  WARN 22916 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-04-18 18:50:21.154  INFO 22916 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2023-04-18 18:50:21.156  INFO 22916 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2429 ms
+2023-04-18 18:50:37.182  INFO 23176 --- [restartedMain] com.mindskip.xzs.XzsApplication          : Starting XzsApplication on LAPTOP-E5OFK2RS with PID 23176 (started by 北陌柠 in F:\项目\云课堂相关的项目\xzs-mysql\source\xzs)
+2023-04-18 18:50:37.184  INFO 23176 --- [restartedMain] com.mindskip.xzs.XzsApplication          : The following profiles are active: dev
+2023-04-18 18:50:37.247  INFO 23176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-18 18:50:37.247  INFO 23176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-18 18:50:38.821  WARN 23176 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-04-18 18:50:38.846  INFO 23176 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2023-04-18 18:50:38.848  INFO 23176 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1601 ms
+2023-04-18 18:50:39.801  INFO 23176 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5be30e51, org.springframework.security.web.context.SecurityContextPersistenceFilter@256866f, org.springframework.security.web.header.HeaderWriterFilter@3c50c3d9, org.springframework.web.filter.CorsFilter@132c593b, org.springframework.security.web.authentication.logout.LogoutFilter@6857f819, com.mindskip.xzs.configuration.spring.security.RestLoginAuthenticationFilter@14fa779c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5079ef9d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5aa38ed1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c39cbb6, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@480bb187, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e059283, org.springframework.security.web.session.SessionManagementFilter@585a63ce, org.springframework.security.web.access.ExceptionTranslationFilter@450123f4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@766a4d3e]
+2023-04-18 18:50:40.229  INFO 23176 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-18 18:50:40.280  INFO 23176 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
+2023-04-18 18:50:40.291  INFO 23176 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2023-04-18 18:50:40.342  INFO 23176 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8000 (http) with context path ''
+2023-04-18 18:50:40.345  INFO 23176 --- [restartedMain] com.mindskip.xzs.XzsApplication          : Started XzsApplication in 3.601 seconds (JVM running for 5.472)
+2023-04-18 19:00:27.166  INFO 83228 --- [restartedMain] com.mindskip.xzs.XzsApplication          : Starting XzsApplication on LAPTOP-E5OFK2RS with PID 83228 (started by 北陌柠 in F:\项目\云课堂相关的项目\xzs-mysql\source\xzs)
+2023-04-18 19:00:27.170  INFO 83228 --- [restartedMain] com.mindskip.xzs.XzsApplication          : The following profiles are active: dev
+2023-04-18 19:00:27.233  INFO 83228 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-18 19:00:27.233  INFO 83228 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-18 19:00:28.646  WARN 83228 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-04-18 19:00:28.668  INFO 83228 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2023-04-18 19:00:28.668  INFO 83228 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1435 ms
+2023-04-18 19:00:29.788  INFO 83228 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b4c7ac4, org.springframework.security.web.context.SecurityContextPersistenceFilter@80dcad0, org.springframework.security.web.header.HeaderWriterFilter@6646be70, org.springframework.web.filter.CorsFilter@7c600f0, org.springframework.security.web.authentication.logout.LogoutFilter@564a6cae, com.mindskip.xzs.configuration.spring.security.RestLoginAuthenticationFilter@7c26df6a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@19e85fac, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7bc7f50e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a0b9a3f, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@130fbb76, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@539ac30f, org.springframework.security.web.session.SessionManagementFilter@6f3361ca, org.springframework.security.web.access.ExceptionTranslationFilter@79f9988f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4db423fe]
+2023-04-18 19:00:30.504  INFO 83228 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-18 19:00:30.579  INFO 83228 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
+2023-04-18 19:00:30.595  INFO 83228 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2023-04-18 19:00:30.693  INFO 83228 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8000 (http) with context path ''
+2023-04-18 19:00:30.708  INFO 83228 --- [restartedMain] com.mindskip.xzs.XzsApplication          : Started XzsApplication in 4.209 seconds (JVM running for 6.204)
+2023-04-18 19:03:33.179  INFO 83228 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-18 19:03:33.179  INFO 83228 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-18 19:03:33.186  INFO 83228 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2023-04-18 19:04:25.730  INFO 83228 --- [XNIO-1 task-52] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 19:04:28.555 ERROR 83228 --- [XNIO-1 task-52] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+java.sql.SQLException: Access denied for user 'xsz'@'117.140.154.195' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:157)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:85)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:108)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy102.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy64.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:159)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57)
+	at com.sun.proxy.$Proxy65.getUserByUserName(Unknown Source)
+	at com.mindskip.xzs.service.impl.UserServiceImpl.getUserByUserName(UserServiceImpl.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205)
+	at com.sun.proxy.$Proxy68.getUserByUserName(Unknown Source)
+	at com.mindskip.xzs.configuration.spring.security.RestAuthenticationProvider.authenticate(RestAuthenticationProvider.java:57)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:513)
+	at com.mindskip.xzs.configuration.spring.security.RestLoginAuthenticationFilter.attemptAuthentication(RestLoginAuthenticationFilter.java:49)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:364)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+2023-04-18 19:04:28.562 ERROR 83228 --- [XNIO-1 task-52] io.undertow.request                      : UT005023: Exception handling request to /api/user/login
+
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'xsz'@'117.140.154.195' (using password: YES)
+### The error may exist in file [F:\项目\云课堂相关的项目\xzs-mysql\source\xzs\target\classes\mapper\UserMapper.xml]
+### The error may involve com.mindskip.xzs.repository.UserMapper.getUserByUserName
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'xsz'@'117.140.154.195' (using password: YES)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:78)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440)
+	at com.sun.proxy.$Proxy64.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:159)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57)
+	at com.sun.proxy.$Proxy65.getUserByUserName(Unknown Source)
+	at com.mindskip.xzs.service.impl.UserServiceImpl.getUserByUserName(UserServiceImpl.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205)
+	at com.sun.proxy.$Proxy68.getUserByUserName(Unknown Source)
+	at com.mindskip.xzs.configuration.spring.security.RestAuthenticationProvider.authenticate(RestAuthenticationProvider.java:57)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:513)
+	at com.mindskip.xzs.configuration.spring.security.RestLoginAuthenticationFilter.attemptAuthentication(RestLoginAuthenticationFilter.java:49)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:364)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'xsz'@'117.140.154.195' (using password: YES)
+### The error may exist in file [F:\项目\云课堂相关的项目\xzs-mysql\source\xzs\target\classes\mapper\UserMapper.xml]
+### The error may involve com.mindskip.xzs.repository.UserMapper.getUserByUserName
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'xsz'@'117.140.154.195' (using password: YES)
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:149)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	... 71 common frames omitted
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'xsz'@'117.140.154.195' (using password: YES)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:85)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:108)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy102.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	... 78 common frames omitted
+Caused by: java.sql.SQLException: Access denied for user 'xsz'@'117.140.154.195' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:157)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	... 90 common frames omitted
+
+2023-04-18 19:04:37.462  INFO 83228 --- [XNIO-1 task-53] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 19:04:38.685 ERROR 83228 --- [XNIO-1 task-53] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+java.sql.SQLException: Access denied for user 'xsz'@'117.140.154.195' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:157)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:85)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:108)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy102.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy64.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:159)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57)
+	at com.sun.proxy.$Proxy65.getUserByUserName(Unknown Source)
+	at com.mindskip.xzs.service.impl.UserServiceImpl.getUserByUserName(UserServiceImpl.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205)
+	at com.sun.proxy.$Proxy68.getUserByUserName(Unknown Source)
+	at com.mindskip.xzs.configuration.spring.security.RestAuthenticationProvider.authenticate(RestAuthenticationProvider.java:57)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:503)
+	at com.mindskip.xzs.configuration.spring.security.RestLoginAuthenticationFilter.attemptAuthentication(RestLoginAuthenticationFilter.java:49)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:364)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+2023-04-18 19:04:38.687 ERROR 83228 --- [XNIO-1 task-53] io.undertow.request                      : UT005023: Exception handling request to /api/user/login
+
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'xsz'@'117.140.154.195' (using password: YES)
+### The error may exist in file [F:\项目\云课堂相关的项目\xzs-mysql\source\xzs\target\classes\mapper\UserMapper.xml]
+### The error may involve com.mindskip.xzs.repository.UserMapper.getUserByUserName
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'xsz'@'117.140.154.195' (using password: YES)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:78)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440)
+	at com.sun.proxy.$Proxy64.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:159)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57)
+	at com.sun.proxy.$Proxy65.getUserByUserName(Unknown Source)
+	at com.mindskip.xzs.service.impl.UserServiceImpl.getUserByUserName(UserServiceImpl.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205)
+	at com.sun.proxy.$Proxy68.getUserByUserName(Unknown Source)
+	at com.mindskip.xzs.configuration.spring.security.RestAuthenticationProvider.authenticate(RestAuthenticationProvider.java:57)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:503)
+	at com.mindskip.xzs.configuration.spring.security.RestLoginAuthenticationFilter.attemptAuthentication(RestLoginAuthenticationFilter.java:49)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:364)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'xsz'@'117.140.154.195' (using password: YES)
+### The error may exist in file [F:\项目\云课堂相关的项目\xzs-mysql\source\xzs\target\classes\mapper\UserMapper.xml]
+### The error may involve com.mindskip.xzs.repository.UserMapper.getUserByUserName
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'xsz'@'117.140.154.195' (using password: YES)
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:149)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	... 71 common frames omitted
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'xsz'@'117.140.154.195' (using password: YES)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:85)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:108)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy102.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	... 78 common frames omitted
+Caused by: java.sql.SQLException: Access denied for user 'xsz'@'117.140.154.195' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:157)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	... 90 common frames omitted
+
+2023-04-18 19:05:29.687  INFO 83228 --- [Thread-12] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-18 19:05:34.090  INFO 84464 --- [restartedMain] com.mindskip.xzs.XzsApplication          : Starting XzsApplication on LAPTOP-E5OFK2RS with PID 84464 (started by 北陌柠 in F:\项目\云课堂相关的项目\xzs-mysql\source\xzs)
+2023-04-18 19:05:34.092  INFO 84464 --- [restartedMain] com.mindskip.xzs.XzsApplication          : The following profiles are active: dev
+2023-04-18 19:05:34.172  INFO 84464 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-18 19:05:34.172  INFO 84464 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-18 19:05:35.697  WARN 84464 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-04-18 19:05:35.715  INFO 84464 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2023-04-18 19:05:35.715  INFO 84464 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1543 ms
+2023-04-18 19:05:36.595  INFO 84464 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@da0b9b5, org.springframework.security.web.context.SecurityContextPersistenceFilter@2e6136f5, org.springframework.security.web.header.HeaderWriterFilter@6a47afbe, org.springframework.web.filter.CorsFilter@282a667c, org.springframework.security.web.authentication.logout.LogoutFilter@79f2ec97, com.mindskip.xzs.configuration.spring.security.RestLoginAuthenticationFilter@5ed97658, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@73dcb448, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4705a64c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4345f92f, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@77c23d37, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62a250b, org.springframework.security.web.session.SessionManagementFilter@e5c2b0d, org.springframework.security.web.access.ExceptionTranslationFilter@7cb00dcf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2c905f69]
+2023-04-18 19:05:37.180  INFO 84464 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-18 19:05:37.221  INFO 84464 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
+2023-04-18 19:05:37.231  INFO 84464 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2023-04-18 19:05:37.289  INFO 84464 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8000 (http) with context path ''
+2023-04-18 19:05:37.292  INFO 84464 --- [restartedMain] com.mindskip.xzs.XzsApplication          : Started XzsApplication in 3.743 seconds (JVM running for 5.534)
+2023-04-18 19:05:54.364  INFO 84464 --- [XNIO-1 task-3] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-18 19:05:54.366  INFO 84464 --- [XNIO-1 task-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-18 19:05:54.373  INFO 84464 --- [XNIO-1 task-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2023-04-18 19:06:05.491  INFO 84464 --- [XNIO-1 task-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 19:06:05.944  INFO 84464 --- [XNIO-1 task-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 19:06:05.951 DEBUG 84464 --- [XNIO-1 task-9] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:06:05.968 DEBUG 84464 --- [XNIO-1 task-9] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:06:06.097 DEBUG 84464 --- [XNIO-1 task-9] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:06:07.000 DEBUG 84464 --- [XNIO-1 task-9] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:06:07.001 DEBUG 84464 --- [XNIO-1 task-9] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:06:07.037 DEBUG 84464 --- [XNIO-1 task-9] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:06:07.051 DEBUG 84464 --- [XNIO-1 task-9] r.c.m.x.r.U.insertSelective              : ==>  Preparing: insert into t_user_event_log ( user_id, user_name, real_name, content, create_time ) values ( ?, ?, ?, ?, ? ) 
+2023-04-18 19:06:07.054 DEBUG 84464 --- [XNIO-1 task-9] r.c.m.x.r.U.insertSelective              : ==> Parameters: 3(Integer), lxp(String), 李霄鹏(String), lxp 登录了学之思开源考试系统(String), 2023-04-18 19:06:07.038(Timestamp)
+2023-04-18 19:06:07.140 DEBUG 84464 --- [XNIO-1 task-9] r.c.m.x.r.U.insertSelective              : <==    Updates: 1
+2023-04-18 19:06:07.303 DEBUG 84464 --- [XNIO-1 task-10] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:06:07.303 DEBUG 84464 --- [XNIO-1 task-10] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:06:07.345 DEBUG 84464 --- [XNIO-1 task-10] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:06:07.346 DEBUG 84464 --- [XNIO-1 task-10] r.c.m.x.r.MessageUserMapper.unReadCount  : ==>  Preparing: select count(*) from t_message_user where readed='f' and receive_user_id = ? 
+2023-04-18 19:06:07.346 DEBUG 84464 --- [XNIO-1 task-10] r.c.m.x.r.MessageUserMapper.unReadCount  : ==> Parameters: 3(Integer)
+2023-04-18 19:06:07.382 DEBUG 84464 --- [XNIO-1 task-10] r.c.m.x.r.MessageUserMapper.unReadCount  : <==      Total: 1
+2023-04-18 19:06:07.599 DEBUG 84464 --- [XNIO-1 task-11] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:06:07.600 DEBUG 84464 --- [XNIO-1 task-11] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:06:07.633 DEBUG 84464 --- [XNIO-1 task-12] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:06:07.634 DEBUG 84464 --- [XNIO-1 task-12] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:06:07.636 DEBUG 84464 --- [XNIO-1 task-13] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:06:07.637 DEBUG 84464 --- [XNIO-1 task-13] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:06:07.642 DEBUG 84464 --- [XNIO-1 task-11] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:06:07.667 DEBUG 84464 --- [XNIO-1 task-12] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:06:07.672 DEBUG 84464 --- [XNIO-1 task-12] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==>  Preparing: SELECT id,name,limit_start_time,limit_end_time FROM t_exam_paper WHERE deleted=0 and paper_type= ? and grade_level=? ORDER BY id desc limit 5 
+2023-04-18 19:06:07.672 DEBUG 84464 --- [XNIO-1 task-12] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==> Parameters: 1(Integer), 3(Integer)
+2023-04-18 19:06:07.674 DEBUG 84464 --- [XNIO-1 task-13] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:06:07.675 DEBUG 84464 --- [XNIO-1 task-13] r.c.m.x.r.T.getByGradeLevel              : ==>  Preparing: select id, title, grade_level, frame_text_content_id, create_user, create_time, deleted, create_user_name from t_task_exam where deleted=0 and grade_level = ? 
+2023-04-18 19:06:07.677 DEBUG 84464 --- [XNIO-1 task-13] r.c.m.x.r.T.getByGradeLevel              : ==> Parameters: 3(Integer)
+2023-04-18 19:06:07.707 DEBUG 84464 --- [XNIO-1 task-12] r.c.m.x.r.ExamPaperMapper.indexPaper     : <==      Total: 1
+2023-04-18 19:06:07.709 DEBUG 84464 --- [XNIO-1 task-12] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==>  Preparing: SELECT id,name,limit_start_time,limit_end_time FROM t_exam_paper WHERE deleted=0 and paper_type= ? and grade_level=? and ? between limit_start_time and limit_end_time ORDER BY id desc limit 5 
+2023-04-18 19:06:07.710 DEBUG 84464 --- [XNIO-1 task-12] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==> Parameters: 4(Integer), 3(Integer), 2023-04-18 19:06:07.709(Timestamp)
+2023-04-18 19:06:07.713 DEBUG 84464 --- [XNIO-1 task-13] r.c.m.x.r.T.getByGradeLevel              : <==      Total: 1
+2023-04-18 19:06:07.718 DEBUG 84464 --- [XNIO-1 task-13] r.c.m.x.r.T.selectByTUid                 : ==>  Preparing: select id, task_exam_id, create_user, create_time, text_content_id from t_task_exam_customer_answer where create_user=? and task_exam_id in ( ? ) 
+2023-04-18 19:06:07.718 DEBUG 84464 --- [XNIO-1 task-13] r.c.m.x.r.T.selectByTUid                 : ==> Parameters: 3(Integer), 1(Integer)
+2023-04-18 19:06:07.743 DEBUG 84464 --- [XNIO-1 task-12] r.c.m.x.r.ExamPaperMapper.indexPaper     : <==      Total: 0
+2023-04-18 19:06:07.756 DEBUG 84464 --- [XNIO-1 task-13] r.c.m.x.r.T.selectByTUid                 : <==      Total: 1
+2023-04-18 19:06:07.758 DEBUG 84464 --- [XNIO-1 task-13] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:06:07.760 DEBUG 84464 --- [XNIO-1 task-13] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 17(Integer)
+2023-04-18 19:06:07.798 DEBUG 84464 --- [XNIO-1 task-13] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:06:07.809 DEBUG 84464 --- [XNIO-1 task-13] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:06:07.809 DEBUG 84464 --- [XNIO-1 task-13] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 19(Integer)
+2023-04-18 19:06:07.848 DEBUG 84464 --- [XNIO-1 task-13] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:06:16.958 DEBUG 84464 --- [XNIO-1 task-14] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:06:16.958 DEBUG 84464 --- [XNIO-1 task-14] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:06:16.995 DEBUG 84464 --- [XNIO-1 task-14] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:06:16.997 DEBUG 84464 --- [XNIO-1 task-14] r.c.m.x.r.S.getSubjectByLevel            : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where level= ? order by item_order 
+2023-04-18 19:06:16.998 DEBUG 84464 --- [XNIO-1 task-14] r.c.m.x.r.S.getSubjectByLevel            : ==> Parameters: 3(Integer)
+2023-04-18 19:06:17.035 DEBUG 84464 --- [XNIO-1 task-14] r.c.m.x.r.S.getSubjectByLevel            : <==      Total: 3
+2023-04-18 19:06:17.288 DEBUG 84464 --- [XNIO-1 task-15] r.c.m.x.r.E.studentPage_COUNT            : ==>  Preparing: SELECT count(0) FROM t_exam_paper WHERE deleted = 0 AND subject_id = ? AND paper_type = ? 
+2023-04-18 19:06:17.289 DEBUG 84464 --- [XNIO-1 task-15] r.c.m.x.r.E.studentPage_COUNT            : ==> Parameters: 1(Integer), 1(Integer)
+2023-04-18 19:06:17.334 DEBUG 84464 --- [XNIO-1 task-15] r.c.m.x.r.E.studentPage_COUNT            : <==      Total: 1
+2023-04-18 19:06:20.060 DEBUG 84464 --- [XNIO-1 task-16] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:06:20.061 DEBUG 84464 --- [XNIO-1 task-16] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:06:20.098 DEBUG 84464 --- [XNIO-1 task-16] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:06:20.100 DEBUG 84464 --- [XNIO-1 task-16] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==>  Preparing: SELECT id,name,limit_start_time,limit_end_time FROM t_exam_paper WHERE deleted=0 and paper_type= ? and grade_level=? ORDER BY id desc limit 5 
+2023-04-18 19:06:20.101 DEBUG 84464 --- [XNIO-1 task-16] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==> Parameters: 1(Integer), 3(Integer)
+2023-04-18 19:06:20.145 DEBUG 84464 --- [XNIO-1 task-16] r.c.m.x.r.ExamPaperMapper.indexPaper     : <==      Total: 1
+2023-04-18 19:06:20.146 DEBUG 84464 --- [XNIO-1 task-16] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==>  Preparing: SELECT id,name,limit_start_time,limit_end_time FROM t_exam_paper WHERE deleted=0 and paper_type= ? and grade_level=? and ? between limit_start_time and limit_end_time ORDER BY id desc limit 5 
+2023-04-18 19:06:20.147 DEBUG 84464 --- [XNIO-1 task-16] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==> Parameters: 4(Integer), 3(Integer), 2023-04-18 19:06:20.145(Timestamp)
+2023-04-18 19:06:20.184 DEBUG 84464 --- [XNIO-1 task-16] r.c.m.x.r.ExamPaperMapper.indexPaper     : <==      Total: 0
+2023-04-18 19:06:20.343 DEBUG 84464 --- [XNIO-1 task-17] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:06:20.344 DEBUG 84464 --- [XNIO-1 task-17] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:06:20.381 DEBUG 84464 --- [XNIO-1 task-17] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:06:20.382 DEBUG 84464 --- [XNIO-1 task-17] r.c.m.x.r.T.getByGradeLevel              : ==>  Preparing: select id, title, grade_level, frame_text_content_id, create_user, create_time, deleted, create_user_name from t_task_exam where deleted=0 and grade_level = ? 
+2023-04-18 19:06:20.382 DEBUG 84464 --- [XNIO-1 task-17] r.c.m.x.r.T.getByGradeLevel              : ==> Parameters: 3(Integer)
+2023-04-18 19:06:20.421 DEBUG 84464 --- [XNIO-1 task-17] r.c.m.x.r.T.getByGradeLevel              : <==      Total: 1
+2023-04-18 19:06:20.422 DEBUG 84464 --- [XNIO-1 task-17] r.c.m.x.r.T.selectByTUid                 : ==>  Preparing: select id, task_exam_id, create_user, create_time, text_content_id from t_task_exam_customer_answer where create_user=? and task_exam_id in ( ? ) 
+2023-04-18 19:06:20.422 DEBUG 84464 --- [XNIO-1 task-17] r.c.m.x.r.T.selectByTUid                 : ==> Parameters: 3(Integer), 1(Integer)
+2023-04-18 19:06:20.459 DEBUG 84464 --- [XNIO-1 task-17] r.c.m.x.r.T.selectByTUid                 : <==      Total: 1
+2023-04-18 19:06:20.459 DEBUG 84464 --- [XNIO-1 task-17] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:06:20.460 DEBUG 84464 --- [XNIO-1 task-17] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 17(Integer)
+2023-04-18 19:06:20.496 DEBUG 84464 --- [XNIO-1 task-17] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:06:20.497 DEBUG 84464 --- [XNIO-1 task-17] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:06:20.497 DEBUG 84464 --- [XNIO-1 task-17] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 19(Integer)
+2023-04-18 19:06:20.534 DEBUG 84464 --- [XNIO-1 task-17] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:06:22.029 DEBUG 84464 --- [XNIO-1 task-18] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:06:22.029 DEBUG 84464 --- [XNIO-1 task-18] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:06:22.068 DEBUG 84464 --- [XNIO-1 task-18] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:06:22.068 DEBUG 84464 --- [XNIO-1 task-18] r.c.m.x.r.S.getSubjectByLevel            : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where level= ? order by item_order 
+2023-04-18 19:06:22.068 DEBUG 84464 --- [XNIO-1 task-18] r.c.m.x.r.S.getSubjectByLevel            : ==> Parameters: 3(Integer)
+2023-04-18 19:06:22.105 DEBUG 84464 --- [XNIO-1 task-18] r.c.m.x.r.S.getSubjectByLevel            : <==      Total: 3
+2023-04-18 19:06:22.254 DEBUG 84464 --- [XNIO-1 task-19] r.c.m.x.r.E.studentPage_COUNT            : ==>  Preparing: SELECT count(0) FROM t_exam_paper WHERE deleted = 0 AND subject_id = ? AND paper_type = ? 
+2023-04-18 19:06:22.254 DEBUG 84464 --- [XNIO-1 task-19] r.c.m.x.r.E.studentPage_COUNT            : ==> Parameters: 1(Integer), 1(Integer)
+2023-04-18 19:06:22.292 DEBUG 84464 --- [XNIO-1 task-19] r.c.m.x.r.E.studentPage_COUNT            : <==      Total: 1
+2023-04-18 19:07:23.195 DEBUG 84464 --- [XNIO-1 task-20] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:07:23.195 DEBUG 84464 --- [XNIO-1 task-20] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:07:23.199 DEBUG 84464 --- [XNIO-1 task-21] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:07:23.199 DEBUG 84464 --- [XNIO-1 task-22] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:07:23.199 DEBUG 84464 --- [XNIO-1 task-21] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:07:23.199 DEBUG 84464 --- [XNIO-1 task-22] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:07:23.227 DEBUG 84464 --- [XNIO-1 task-20] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:07:23.228 DEBUG 84464 --- [XNIO-1 task-20] r.c.m.x.r.MessageUserMapper.unReadCount  : ==>  Preparing: select count(*) from t_message_user where readed='f' and receive_user_id = ? 
+2023-04-18 19:07:23.228 DEBUG 84464 --- [XNIO-1 task-20] r.c.m.x.r.MessageUserMapper.unReadCount  : ==> Parameters: 3(Integer)
+2023-04-18 19:07:23.239 DEBUG 84464 --- [XNIO-1 task-22] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:07:23.239 DEBUG 84464 --- [XNIO-1 task-21] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:07:23.239 DEBUG 84464 --- [XNIO-1 task-22] r.c.m.x.r.S.getSubjectByLevel            : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where level= ? order by item_order 
+2023-04-18 19:07:23.240 DEBUG 84464 --- [XNIO-1 task-22] r.c.m.x.r.S.getSubjectByLevel            : ==> Parameters: 3(Integer)
+2023-04-18 19:07:23.260 DEBUG 84464 --- [XNIO-1 task-20] r.c.m.x.r.MessageUserMapper.unReadCount  : <==      Total: 1
+2023-04-18 19:07:23.279 DEBUG 84464 --- [XNIO-1 task-22] r.c.m.x.r.S.getSubjectByLevel            : <==      Total: 3
+2023-04-18 19:07:23.356 DEBUG 84464 --- [XNIO-1 task-23] r.c.m.x.r.E.studentPage_COUNT            : ==>  Preparing: SELECT count(0) FROM t_exam_paper WHERE deleted = 0 AND subject_id = ? AND paper_type = ? 
+2023-04-18 19:07:23.357 DEBUG 84464 --- [XNIO-1 task-23] r.c.m.x.r.E.studentPage_COUNT            : ==> Parameters: 1(Integer), 1(Integer)
+2023-04-18 19:07:23.396 DEBUG 84464 --- [XNIO-1 task-23] r.c.m.x.r.E.studentPage_COUNT            : <==      Total: 1
+2023-04-18 19:07:24.587 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:07:24.587 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:07:24.624 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:07:24.626 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.E.studentPage_COUNT            : ==>  Preparing: SELECT count(0) FROM t_exam_paper_question_customer_answer WHERE do_right = FALSE AND create_user = ? 
+2023-04-18 19:07:24.626 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.E.studentPage_COUNT            : ==> Parameters: 3(Integer)
+2023-04-18 19:07:24.662 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.E.studentPage_COUNT            : <==      Total: 1
+2023-04-18 19:07:24.668 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.E.studentPage                  : ==>  Preparing: SELECT id, question_id, exam_paper_id, exam_paper_answer_id, question_type, subject_id, customer_score, question_score, question_text_content_id, answer, text_content_id, do_right, create_user, create_time, item_order FROM t_exam_paper_question_customer_answer WHERE do_right = FALSE AND create_user = ? order by id desc LIMIT ? 
+2023-04-18 19:07:24.669 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.E.studentPage                  : ==> Parameters: 3(Integer), 10(Integer)
+2023-04-18 19:07:24.707 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.E.studentPage                  : <==      Total: 10
+2023-04-18 19:07:24.708 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where id = ? 
+2023-04-18 19:07:24.708 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : ==> Parameters: 2(Integer)
+2023-04-18 19:07:24.746 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:07:24.748 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:07:24.748 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 12(Integer)
+2023-04-18 19:07:24.784 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:07:24.789 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where id = ? 
+2023-04-18 19:07:24.789 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : ==> Parameters: 2(Integer)
+2023-04-18 19:07:24.827 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:07:24.828 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:07:24.828 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 11(Integer)
+2023-04-18 19:07:24.865 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:07:24.865 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where id = ? 
+2023-04-18 19:07:24.865 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : ==> Parameters: 2(Integer)
+2023-04-18 19:07:24.903 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:07:24.905 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:07:24.905 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 10(Integer)
+2023-04-18 19:07:24.941 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:07:24.942 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where id = ? 
+2023-04-18 19:07:24.942 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : ==> Parameters: 2(Integer)
+2023-04-18 19:07:24.985 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:07:24.986 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:07:24.987 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 8(Integer)
+2023-04-18 19:07:25.024 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:07:25.025 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where id = ? 
+2023-04-18 19:07:25.026 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : ==> Parameters: 2(Integer)
+2023-04-18 19:07:25.062 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:07:25.063 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:07:25.063 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 9(Integer)
+2023-04-18 19:07:25.100 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:07:25.101 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where id = ? 
+2023-04-18 19:07:25.101 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : ==> Parameters: 2(Integer)
+2023-04-18 19:07:25.138 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:07:25.139 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:07:25.140 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 3(Integer)
+2023-04-18 19:07:25.181 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:07:25.182 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where id = ? 
+2023-04-18 19:07:25.182 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : ==> Parameters: 2(Integer)
+2023-04-18 19:07:25.220 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:07:25.221 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:07:25.221 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 4(Integer)
+2023-04-18 19:07:25.261 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:07:25.262 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where id = ? 
+2023-04-18 19:07:25.262 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : ==> Parameters: 2(Integer)
+2023-04-18 19:07:25.308 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:07:25.309 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:07:25.309 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 5(Integer)
+2023-04-18 19:07:25.355 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:07:25.356 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where id = ? 
+2023-04-18 19:07:25.356 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : ==> Parameters: 2(Integer)
+2023-04-18 19:07:25.394 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:07:25.395 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:07:25.395 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 7(Integer)
+2023-04-18 19:07:25.433 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:07:25.434 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where id = ? 
+2023-04-18 19:07:25.434 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : ==> Parameters: 2(Integer)
+2023-04-18 19:07:25.474 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.S.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:07:25.474 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:07:25.474 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 6(Integer)
+2023-04-18 19:07:25.512 DEBUG 84464 --- [XNIO-1 task-24] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:07:25.548 DEBUG 84464 --- [XNIO-1 task-25] r.c.m.x.r.E.selectByPrimaryKey           : ==>  Preparing: select id, question_id, exam_paper_id, exam_paper_answer_id, question_type, subject_id, customer_score, question_score, question_text_content_id, answer, text_content_id, do_right, create_user, create_time, item_order from t_exam_paper_question_customer_answer where id = ? 
+2023-04-18 19:07:25.548 DEBUG 84464 --- [XNIO-1 task-25] r.c.m.x.r.E.selectByPrimaryKey           : ==> Parameters: 23(Integer)
+2023-04-18 19:07:25.585 DEBUG 84464 --- [XNIO-1 task-25] r.c.m.x.r.E.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:07:25.587 DEBUG 84464 --- [XNIO-1 task-25] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:07:25.588 DEBUG 84464 --- [XNIO-1 task-25] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 21(Integer)
+2023-04-18 19:07:25.625 DEBUG 84464 --- [XNIO-1 task-25] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:07:25.628 DEBUG 84464 --- [XNIO-1 task-25] r.c.m.x.r.Q.selectByPrimaryKey           : ==>  Preparing: select id, question_type, subject_id, score, grade_level, difficult, correct, info_text_content_id, create_user, status, create_time, deleted from t_question where id = ? 
+2023-04-18 19:07:25.628 DEBUG 84464 --- [XNIO-1 task-25] r.c.m.x.r.Q.selectByPrimaryKey           : ==> Parameters: 12(Integer)
+2023-04-18 19:07:25.664 DEBUG 84464 --- [XNIO-1 task-25] r.c.m.x.r.Q.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:07:25.665 DEBUG 84464 --- [XNIO-1 task-25] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:07:25.666 DEBUG 84464 --- [XNIO-1 task-25] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 12(Integer)
+2023-04-18 19:07:25.705 DEBUG 84464 --- [XNIO-1 task-25] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:10:27.042 DEBUG 84464 --- [XNIO-1 task-28] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:10:27.042 DEBUG 84464 --- [XNIO-1 task-26] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:10:27.042 DEBUG 84464 --- [XNIO-1 task-27] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:10:27.043 DEBUG 84464 --- [XNIO-1 task-26] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:10:27.043 DEBUG 84464 --- [XNIO-1 task-27] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:10:27.043 DEBUG 84464 --- [XNIO-1 task-28] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:10:27.075 DEBUG 84464 --- [XNIO-1 task-28] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:10:27.077 DEBUG 84464 --- [XNIO-1 task-28] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==>  Preparing: SELECT id,name,limit_start_time,limit_end_time FROM t_exam_paper WHERE deleted=0 and paper_type= ? and grade_level=? ORDER BY id desc limit 5 
+2023-04-18 19:10:27.077 DEBUG 84464 --- [XNIO-1 task-28] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==> Parameters: 1(Integer), 3(Integer)
+2023-04-18 19:10:27.080 DEBUG 84464 --- [XNIO-1 task-27] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:10:27.080 DEBUG 84464 --- [XNIO-1 task-26] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:10:27.081 DEBUG 84464 --- [XNIO-1 task-26] r.c.m.x.r.MessageUserMapper.unReadCount  : ==>  Preparing: select count(*) from t_message_user where readed='f' and receive_user_id = ? 
+2023-04-18 19:10:27.081 DEBUG 84464 --- [XNIO-1 task-26] r.c.m.x.r.MessageUserMapper.unReadCount  : ==> Parameters: 3(Integer)
+2023-04-18 19:10:27.109 DEBUG 84464 --- [XNIO-1 task-28] r.c.m.x.r.ExamPaperMapper.indexPaper     : <==      Total: 1
+2023-04-18 19:10:27.110 DEBUG 84464 --- [XNIO-1 task-28] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==>  Preparing: SELECT id,name,limit_start_time,limit_end_time FROM t_exam_paper WHERE deleted=0 and paper_type= ? and grade_level=? and ? between limit_start_time and limit_end_time ORDER BY id desc limit 5 
+2023-04-18 19:10:27.111 DEBUG 84464 --- [XNIO-1 task-28] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==> Parameters: 4(Integer), 3(Integer), 2023-04-18 19:10:27.11(Timestamp)
+2023-04-18 19:10:27.118 DEBUG 84464 --- [XNIO-1 task-29] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:10:27.118 DEBUG 84464 --- [XNIO-1 task-26] r.c.m.x.r.MessageUserMapper.unReadCount  : <==      Total: 1
+2023-04-18 19:10:27.118 DEBUG 84464 --- [XNIO-1 task-29] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:10:27.143 DEBUG 84464 --- [XNIO-1 task-28] r.c.m.x.r.ExamPaperMapper.indexPaper     : <==      Total: 0
+2023-04-18 19:10:27.156 DEBUG 84464 --- [XNIO-1 task-29] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:10:27.157 DEBUG 84464 --- [XNIO-1 task-29] r.c.m.x.r.T.getByGradeLevel              : ==>  Preparing: select id, title, grade_level, frame_text_content_id, create_user, create_time, deleted, create_user_name from t_task_exam where deleted=0 and grade_level = ? 
+2023-04-18 19:10:27.157 DEBUG 84464 --- [XNIO-1 task-29] r.c.m.x.r.T.getByGradeLevel              : ==> Parameters: 3(Integer)
+2023-04-18 19:10:27.192 DEBUG 84464 --- [XNIO-1 task-29] r.c.m.x.r.T.getByGradeLevel              : <==      Total: 1
+2023-04-18 19:10:27.192 DEBUG 84464 --- [XNIO-1 task-29] r.c.m.x.r.T.selectByTUid                 : ==>  Preparing: select id, task_exam_id, create_user, create_time, text_content_id from t_task_exam_customer_answer where create_user=? and task_exam_id in ( ? ) 
+2023-04-18 19:10:27.192 DEBUG 84464 --- [XNIO-1 task-29] r.c.m.x.r.T.selectByTUid                 : ==> Parameters: 3(Integer), 1(Integer)
+2023-04-18 19:10:27.229 DEBUG 84464 --- [XNIO-1 task-29] r.c.m.x.r.T.selectByTUid                 : <==      Total: 1
+2023-04-18 19:10:27.229 DEBUG 84464 --- [XNIO-1 task-29] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:10:27.229 DEBUG 84464 --- [XNIO-1 task-29] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 17(Integer)
+2023-04-18 19:10:27.264 DEBUG 84464 --- [XNIO-1 task-29] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:10:27.265 DEBUG 84464 --- [XNIO-1 task-29] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:10:27.265 DEBUG 84464 --- [XNIO-1 task-29] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 19(Integer)
+2023-04-18 19:10:27.301 DEBUG 84464 --- [XNIO-1 task-29] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:10:30.169 DEBUG 84464 --- [XNIO-1 task-31] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:10:30.169 DEBUG 84464 --- [XNIO-1 task-30] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:10:30.169 DEBUG 84464 --- [XNIO-1 task-31] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:10:30.169 DEBUG 84464 --- [XNIO-1 task-30] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:10:30.205 DEBUG 84464 --- [XNIO-1 task-31] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:10:30.206 DEBUG 84464 --- [XNIO-1 task-31] r.c.m.x.r.U.getUserEventLogByUserId      : ==>  Preparing: select id, user_id, user_name, real_name, content, create_time from t_user_event_log where user_id=? order by id desc limit 10 
+2023-04-18 19:10:30.207 DEBUG 84464 --- [XNIO-1 task-31] r.c.m.x.r.U.getUserEventLogByUserId      : ==> Parameters: 3(Integer)
+2023-04-18 19:10:30.208 DEBUG 84464 --- [XNIO-1 task-30] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:10:30.247 DEBUG 84464 --- [XNIO-1 task-31] r.c.m.x.r.U.getUserEventLogByUserId      : <==      Total: 10
+2023-04-18 19:10:36.251 DEBUG 84464 --- [XNIO-1 task-32] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:10:36.252 DEBUG 84464 --- [XNIO-1 task-32] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:10:36.289 DEBUG 84464 --- [XNIO-1 task-32] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:10:36.338 DEBUG 84464 --- [XNIO-1 task-32] r.c.m.x.r.U.updateByPrimaryKeySelective  : ==>  Preparing: update t_user SET image_path = ? where id = ? 
+2023-04-18 19:10:36.338 DEBUG 84464 --- [XNIO-1 task-32] r.c.m.x.r.U.updateByPrimaryKeySelective  : ==> Parameters: http://rtb4erm0h.hn-bkt.clouddn.com//Fg4myjGRt5auCoZwIUG8hIcAoAK2(String), 3(Integer)
+2023-04-18 19:10:36.411 DEBUG 84464 --- [XNIO-1 task-32] r.c.m.x.r.U.updateByPrimaryKeySelective  : <==    Updates: 1
+2023-04-18 19:10:36.857 DEBUG 84464 --- [XNIO-1 task-35] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:10:36.858 DEBUG 84464 --- [XNIO-1 task-35] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:10:36.893 DEBUG 84464 --- [XNIO-1 task-34] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:10:36.894 DEBUG 84464 --- [XNIO-1 task-34] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:10:36.896 DEBUG 84464 --- [XNIO-1 task-35] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:10:36.929 DEBUG 84464 --- [XNIO-1 task-34] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:10:36.930 DEBUG 84464 --- [XNIO-1 task-34] r.c.m.x.r.MessageUserMapper.unReadCount  : ==>  Preparing: select count(*) from t_message_user where readed='f' and receive_user_id = ? 
+2023-04-18 19:10:36.930 DEBUG 84464 --- [XNIO-1 task-34] r.c.m.x.r.MessageUserMapper.unReadCount  : ==> Parameters: 3(Integer)
+2023-04-18 19:10:36.951 DEBUG 84464 --- [XNIO-1 task-37] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:10:36.952 DEBUG 84464 --- [XNIO-1 task-37] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:10:36.965 DEBUG 84464 --- [XNIO-1 task-34] r.c.m.x.r.MessageUserMapper.unReadCount  : <==      Total: 1
+2023-04-18 19:10:36.984 DEBUG 84464 --- [XNIO-1 task-36] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:10:36.984 DEBUG 84464 --- [XNIO-1 task-36] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:10:36.991 DEBUG 84464 --- [XNIO-1 task-37] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:10:37.017 DEBUG 84464 --- [XNIO-1 task-36] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:10:37.017 DEBUG 84464 --- [XNIO-1 task-36] r.c.m.x.r.U.getUserEventLogByUserId      : ==>  Preparing: select id, user_id, user_name, real_name, content, create_time from t_user_event_log where user_id=? order by id desc limit 10 
+2023-04-18 19:10:37.017 DEBUG 84464 --- [XNIO-1 task-36] r.c.m.x.r.U.getUserEventLogByUserId      : ==> Parameters: 3(Integer)
+2023-04-18 19:10:37.051 DEBUG 84464 --- [XNIO-1 task-36] r.c.m.x.r.U.getUserEventLogByUserId      : <==      Total: 10
+2023-04-18 19:10:45.421 DEBUG 84464 --- [XNIO-1 task-38] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:10:45.422 DEBUG 84464 --- [XNIO-1 task-38] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:10:45.458 DEBUG 84464 --- [XNIO-1 task-38] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:10:45.459 DEBUG 84464 --- [XNIO-1 task-38] r.c.m.x.r.U.insertSelective              : ==>  Preparing: insert into t_user_event_log ( user_id, user_name, real_name, content, create_time ) values ( ?, ?, ?, ?, ? ) 
+2023-04-18 19:10:45.460 DEBUG 84464 --- [XNIO-1 task-38] r.c.m.x.r.U.insertSelective              : ==> Parameters: 3(Integer), lxp(String), 李霄鹏(String), lxp 登出了学之思开源考试系统(String), 2023-04-18 19:10:45.459(Timestamp)
+2023-04-18 19:10:45.536 DEBUG 84464 --- [XNIO-1 task-38] r.c.m.x.r.U.insertSelective              : <==    Updates: 1
+2023-04-18 19:11:04.457 DEBUG 84464 --- [XNIO-1 task-39] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:11:04.458 DEBUG 84464 --- [XNIO-1 task-39] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:11:04.497 DEBUG 84464 --- [XNIO-1 task-39] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:11:04.501 DEBUG 84464 --- [XNIO-1 task-39] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:11:04.502 DEBUG 84464 --- [XNIO-1 task-39] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:11:04.540 DEBUG 84464 --- [XNIO-1 task-39] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:11:04.541 DEBUG 84464 --- [XNIO-1 task-39] r.c.m.x.r.U.insertSelective              : ==>  Preparing: insert into t_user_event_log ( user_id, user_name, real_name, content, create_time ) values ( ?, ?, ?, ?, ? ) 
+2023-04-18 19:11:04.541 DEBUG 84464 --- [XNIO-1 task-39] r.c.m.x.r.U.insertSelective              : ==> Parameters: 3(Integer), lxp(String), 李霄鹏(String), lxp 登录了学之思开源考试系统(String), 2023-04-18 19:11:04.54(Timestamp)
+2023-04-18 19:11:04.617 DEBUG 84464 --- [XNIO-1 task-39] r.c.m.x.r.U.insertSelective              : <==    Updates: 1
+2023-04-18 19:11:05.075 DEBUG 84464 --- [XNIO-1 task-40] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:11:05.075 DEBUG 84464 --- [XNIO-1 task-40] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:11:05.080 DEBUG 84464 --- [XNIO-1 task-43] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:11:05.080 DEBUG 84464 --- [XNIO-1 task-42] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:11:05.080 DEBUG 84464 --- [XNIO-1 task-43] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:11:05.080 DEBUG 84464 --- [XNIO-1 task-42] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:11:05.107 DEBUG 84464 --- [XNIO-1 task-40] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:11:05.116 DEBUG 84464 --- [XNIO-1 task-43] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:11:05.116 DEBUG 84464 --- [XNIO-1 task-42] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:11:05.117 DEBUG 84464 --- [XNIO-1 task-42] r.c.m.x.r.MessageUserMapper.unReadCount  : ==>  Preparing: select count(*) from t_message_user where readed='f' and receive_user_id = ? 
+2023-04-18 19:11:05.117 DEBUG 84464 --- [XNIO-1 task-43] r.c.m.x.r.T.getByGradeLevel              : ==>  Preparing: select id, title, grade_level, frame_text_content_id, create_user, create_time, deleted, create_user_name from t_task_exam where deleted=0 and grade_level = ? 
+2023-04-18 19:11:05.118 DEBUG 84464 --- [XNIO-1 task-42] r.c.m.x.r.MessageUserMapper.unReadCount  : ==> Parameters: 3(Integer)
+2023-04-18 19:11:05.118 DEBUG 84464 --- [XNIO-1 task-43] r.c.m.x.r.T.getByGradeLevel              : ==> Parameters: 3(Integer)
+2023-04-18 19:11:05.154 DEBUG 84464 --- [XNIO-1 task-43] r.c.m.x.r.T.getByGradeLevel              : <==      Total: 1
+2023-04-18 19:11:05.154 DEBUG 84464 --- [XNIO-1 task-42] r.c.m.x.r.MessageUserMapper.unReadCount  : <==      Total: 1
+2023-04-18 19:11:05.155 DEBUG 84464 --- [XNIO-1 task-43] r.c.m.x.r.T.selectByTUid                 : ==>  Preparing: select id, task_exam_id, create_user, create_time, text_content_id from t_task_exam_customer_answer where create_user=? and task_exam_id in ( ? ) 
+2023-04-18 19:11:05.155 DEBUG 84464 --- [XNIO-1 task-43] r.c.m.x.r.T.selectByTUid                 : ==> Parameters: 3(Integer), 1(Integer)
+2023-04-18 19:11:05.190 DEBUG 84464 --- [XNIO-1 task-43] r.c.m.x.r.T.selectByTUid                 : <==      Total: 1
+2023-04-18 19:11:05.191 DEBUG 84464 --- [XNIO-1 task-43] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:11:05.191 DEBUG 84464 --- [XNIO-1 task-43] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 17(Integer)
+2023-04-18 19:11:05.227 DEBUG 84464 --- [XNIO-1 task-43] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:11:05.227 DEBUG 84464 --- [XNIO-1 task-43] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:11:05.227 DEBUG 84464 --- [XNIO-1 task-43] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 19(Integer)
+2023-04-18 19:11:05.263 DEBUG 84464 --- [XNIO-1 task-43] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:11:08.193 DEBUG 84464 --- [XNIO-1 task-45] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:11:08.193 DEBUG 84464 --- [XNIO-1 task-44] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:11:08.193 DEBUG 84464 --- [XNIO-1 task-45] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:11:08.193 DEBUG 84464 --- [XNIO-1 task-44] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:11:08.228 DEBUG 84464 --- [XNIO-1 task-45] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:11:08.230 DEBUG 84464 --- [XNIO-1 task-44] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:11:08.231 DEBUG 84464 --- [XNIO-1 task-44] r.c.m.x.r.U.getUserEventLogByUserId      : ==>  Preparing: select id, user_id, user_name, real_name, content, create_time from t_user_event_log where user_id=? order by id desc limit 10 
+2023-04-18 19:11:08.231 DEBUG 84464 --- [XNIO-1 task-44] r.c.m.x.r.U.getUserEventLogByUserId      : ==> Parameters: 3(Integer)
+2023-04-18 19:11:08.269 DEBUG 84464 --- [XNIO-1 task-44] r.c.m.x.r.U.getUserEventLogByUserId      : <==      Total: 10
+2023-04-18 19:11:10.060  WARN 84464 --- [XNIO-1 task-41] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@79a25fa9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-04-18 19:11:10.098 DEBUG 84464 --- [XNIO-1 task-41] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:11:10.098 DEBUG 84464 --- [XNIO-1 task-41] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:11:10.134 DEBUG 84464 --- [XNIO-1 task-41] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:11:10.135 DEBUG 84464 --- [XNIO-1 task-41] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==>  Preparing: SELECT id,name,limit_start_time,limit_end_time FROM t_exam_paper WHERE deleted=0 and paper_type= ? and grade_level=? ORDER BY id desc limit 5 
+2023-04-18 19:11:10.135 DEBUG 84464 --- [XNIO-1 task-41] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==> Parameters: 1(Integer), 3(Integer)
+2023-04-18 19:11:10.171 DEBUG 84464 --- [XNIO-1 task-41] r.c.m.x.r.ExamPaperMapper.indexPaper     : <==      Total: 1
+2023-04-18 19:11:10.171 DEBUG 84464 --- [XNIO-1 task-41] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==>  Preparing: SELECT id,name,limit_start_time,limit_end_time FROM t_exam_paper WHERE deleted=0 and paper_type= ? and grade_level=? and ? between limit_start_time and limit_end_time ORDER BY id desc limit 5 
+2023-04-18 19:11:10.172 DEBUG 84464 --- [XNIO-1 task-41] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==> Parameters: 4(Integer), 3(Integer), 2023-04-18 19:11:10.171(Timestamp)
+2023-04-18 19:11:10.208 DEBUG 84464 --- [XNIO-1 task-41] r.c.m.x.r.ExamPaperMapper.indexPaper     : <==      Total: 0
+2023-04-18 19:15:34.211  WARN 84464 --- [XNIO-1 task-47] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@698ecb34 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-04-18 19:15:34.211  WARN 84464 --- [XNIO-1 task-46] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1c7718a4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-04-18 19:15:34.515  WARN 84464 --- [XNIO-1 task-49] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6f5f2a04 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-04-18 19:15:34.515  WARN 84464 --- [XNIO-1 task-48] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4da8eb16 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-04-18 19:15:34.516 DEBUG 84464 --- [XNIO-1 task-49] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:15:34.516 DEBUG 84464 --- [XNIO-1 task-49] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:15:34.549 DEBUG 84464 --- [XNIO-1 task-49] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:15:34.549 DEBUG 84464 --- [XNIO-1 task-48] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:15:34.549 DEBUG 84464 --- [XNIO-1 task-48] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:15:34.586 DEBUG 84464 --- [XNIO-1 task-48] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:15:34.587 DEBUG 84464 --- [XNIO-1 task-48] r.c.m.x.r.U.getUserEventLogByUserId      : ==>  Preparing: select id, user_id, user_name, real_name, content, create_time from t_user_event_log where user_id=? order by id desc limit 10 
+2023-04-18 19:15:34.587 DEBUG 84464 --- [XNIO-1 task-48] r.c.m.x.r.U.getUserEventLogByUserId      : ==> Parameters: 3(Integer)
+2023-04-18 19:15:34.618 DEBUG 84464 --- [XNIO-1 task-48] r.c.m.x.r.U.getUserEventLogByUserId      : <==      Total: 10
+2023-04-18 19:15:38.042  WARN 84464 --- [XNIO-1 task-52] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@782b1bc8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-04-18 19:15:38.057  WARN 84464 --- [XNIO-1 task-51] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@c8502cc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-04-18 19:15:38.057  WARN 84464 --- [XNIO-1 task-50] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@58e98fed (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-04-18 19:15:38.057  WARN 84464 --- [XNIO-1 task-53] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6a59ace2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-04-18 19:15:38.075 DEBUG 84464 --- [XNIO-1 task-52] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:15:38.075 DEBUG 84464 --- [XNIO-1 task-52] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:15:38.097 DEBUG 84464 --- [XNIO-1 task-51] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:15:38.097 DEBUG 84464 --- [XNIO-1 task-50] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:15:38.097 DEBUG 84464 --- [XNIO-1 task-51] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:15:38.097 DEBUG 84464 --- [XNIO-1 task-50] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:15:38.098 DEBUG 84464 --- [XNIO-1 task-53] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:15:38.098 DEBUG 84464 --- [XNIO-1 task-53] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:15:38.108 DEBUG 84464 --- [XNIO-1 task-52] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:15:38.109 DEBUG 84464 --- [XNIO-1 task-52] r.c.m.x.r.U.getUserEventLogByUserId      : ==>  Preparing: select id, user_id, user_name, real_name, content, create_time from t_user_event_log where user_id=? order by id desc limit 10 
+2023-04-18 19:15:38.109 DEBUG 84464 --- [XNIO-1 task-52] r.c.m.x.r.U.getUserEventLogByUserId      : ==> Parameters: 3(Integer)
+2023-04-18 19:15:38.136 DEBUG 84464 --- [XNIO-1 task-51] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:15:38.136 DEBUG 84464 --- [XNIO-1 task-50] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:15:38.137 DEBUG 84464 --- [XNIO-1 task-50] r.c.m.x.r.MessageUserMapper.unReadCount  : ==>  Preparing: select count(*) from t_message_user where readed='f' and receive_user_id = ? 
+2023-04-18 19:15:38.137 DEBUG 84464 --- [XNIO-1 task-50] r.c.m.x.r.MessageUserMapper.unReadCount  : ==> Parameters: 3(Integer)
+2023-04-18 19:15:38.140 DEBUG 84464 --- [XNIO-1 task-53] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:15:38.141 DEBUG 84464 --- [XNIO-1 task-52] r.c.m.x.r.U.getUserEventLogByUserId      : <==      Total: 10
+2023-04-18 19:15:38.176 DEBUG 84464 --- [XNIO-1 task-50] r.c.m.x.r.MessageUserMapper.unReadCount  : <==      Total: 1
+2023-04-18 19:15:39.216  WARN 84464 --- [XNIO-1 task-46] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@18488ff2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-04-18 19:15:39.216  WARN 84464 --- [XNIO-1 task-47] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6376a044 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-04-18 19:15:39.248 DEBUG 84464 --- [XNIO-1 task-46] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:15:39.248 DEBUG 84464 --- [XNIO-1 task-46] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:15:39.255 DEBUG 84464 --- [XNIO-1 task-47] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:15:39.255 DEBUG 84464 --- [XNIO-1 task-47] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:15:39.280 DEBUG 84464 --- [XNIO-1 task-46] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:15:39.281 DEBUG 84464 --- [XNIO-1 task-46] r.c.m.x.r.MessageUserMapper.unReadCount  : ==>  Preparing: select count(*) from t_message_user where readed='f' and receive_user_id = ? 
+2023-04-18 19:15:39.281 DEBUG 84464 --- [XNIO-1 task-46] r.c.m.x.r.MessageUserMapper.unReadCount  : ==> Parameters: 3(Integer)
+2023-04-18 19:15:39.293 DEBUG 84464 --- [XNIO-1 task-47] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:15:39.313 DEBUG 84464 --- [XNIO-1 task-46] r.c.m.x.r.MessageUserMapper.unReadCount  : <==      Total: 1
+2023-04-18 19:17:32.989 DEBUG 84464 --- [XNIO-1 task-54] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:17:32.989 DEBUG 84464 --- [XNIO-1 task-54] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:17:33.025 DEBUG 84464 --- [XNIO-1 task-54] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:17:33.027 DEBUG 84464 --- [XNIO-1 task-54] r.c.m.x.r.M.studentPage_COUNT            : ==>  Preparing: SELECT count(0) FROM t_message_user WHERE receive_user_id = ? 
+2023-04-18 19:17:33.027 DEBUG 84464 --- [XNIO-1 task-54] r.c.m.x.r.M.studentPage_COUNT            : ==> Parameters: 3(Integer)
+2023-04-18 19:17:33.060 DEBUG 84464 --- [XNIO-1 task-54] r.c.m.x.r.M.studentPage_COUNT            : <==      Total: 1
+2023-04-18 19:17:34.833 DEBUG 84464 --- [XNIO-1 task-55] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:17:34.833 DEBUG 84464 --- [XNIO-1 task-55] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:17:34.866 DEBUG 84464 --- [XNIO-1 task-55] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:17:34.868 DEBUG 84464 --- [XNIO-1 task-55] r.c.m.x.r.E.studentPage_COUNT            : ==>  Preparing: SELECT count(0) FROM t_exam_paper_answer WHERE create_user = ? 
+2023-04-18 19:17:34.868 DEBUG 84464 --- [XNIO-1 task-55] r.c.m.x.r.E.studentPage_COUNT            : ==> Parameters: 3(Integer)
+2023-04-18 19:17:34.899 DEBUG 84464 --- [XNIO-1 task-55] r.c.m.x.r.E.studentPage_COUNT            : <==      Total: 1
+2023-04-18 19:17:34.900 DEBUG 84464 --- [XNIO-1 task-55] r.c.m.x.r.E.studentPage                  : ==>  Preparing: SELECT id, exam_paper_id, paper_name, paper_type, subject_id, system_score, user_score, paper_score, question_correct, question_count, do_time, status, create_user, create_time, task_exam_id FROM t_exam_paper_answer WHERE create_user = ? order by id desc LIMIT ? 
+2023-04-18 19:17:34.900 DEBUG 84464 --- [XNIO-1 task-55] r.c.m.x.r.E.studentPage                  : ==> Parameters: 3(Integer), 10(Integer)
+2023-04-18 19:17:34.934 DEBUG 84464 --- [XNIO-1 task-55] r.c.m.x.r.E.studentPage                  : <==      Total: 2
+2023-04-18 19:17:34.936 DEBUG 84464 --- [XNIO-1 task-55] r.c.m.x.r.S.selectByPrimaryKey           : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where id = ? 
+2023-04-18 19:17:34.937 DEBUG 84464 --- [XNIO-1 task-55] r.c.m.x.r.S.selectByPrimaryKey           : ==> Parameters: 2(Integer)
+2023-04-18 19:17:34.968 DEBUG 84464 --- [XNIO-1 task-55] r.c.m.x.r.S.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:34.969 DEBUG 84464 --- [XNIO-1 task-55] r.c.m.x.r.S.selectByPrimaryKey           : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where id = ? 
+2023-04-18 19:17:34.969 DEBUG 84464 --- [XNIO-1 task-55] r.c.m.x.r.S.selectByPrimaryKey           : ==> Parameters: 1(Integer)
+2023-04-18 19:17:35.002 DEBUG 84464 --- [XNIO-1 task-55] r.c.m.x.r.S.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:35.154 DEBUG 84464 --- [XNIO-1 task-56] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:17:35.154 DEBUG 84464 --- [XNIO-1 task-56] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:17:35.186 DEBUG 84464 --- [XNIO-1 task-56] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:17:35.187 DEBUG 84464 --- [XNIO-1 task-56] r.c.m.x.r.S.getSubjectByLevel            : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where level= ? order by item_order 
+2023-04-18 19:17:35.187 DEBUG 84464 --- [XNIO-1 task-56] r.c.m.x.r.S.getSubjectByLevel            : ==> Parameters: 3(Integer)
+2023-04-18 19:17:35.219 DEBUG 84464 --- [XNIO-1 task-56] r.c.m.x.r.S.getSubjectByLevel            : <==      Total: 3
+2023-04-18 19:17:35.348 DEBUG 84464 --- [XNIO-1 task-57] r.c.m.x.r.E.studentPage_COUNT            : ==>  Preparing: SELECT count(0) FROM t_exam_paper WHERE deleted = 0 AND subject_id = ? AND paper_type = ? 
+2023-04-18 19:17:35.348 DEBUG 84464 --- [XNIO-1 task-57] r.c.m.x.r.E.studentPage_COUNT            : ==> Parameters: 1(Integer), 1(Integer)
+2023-04-18 19:17:35.383 DEBUG 84464 --- [XNIO-1 task-57] r.c.m.x.r.E.studentPage_COUNT            : <==      Total: 1
+2023-04-18 19:17:36.028 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.UserMapper.getUserByUserName   : ==>  Preparing: select id, user_uuid, user_name, password, real_name, age, sex, birth_day, user_level, phone, role, status, image_path, create_time, modify_time, last_active_time, deleted, wx_open_id from t_user where deleted=0 and user_name=? limit 1 
+2023-04-18 19:17:36.029 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.UserMapper.getUserByUserName   : ==> Parameters: lxp(String)
+2023-04-18 19:17:36.064 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.UserMapper.getUserByUserName   : <==      Total: 1
+2023-04-18 19:17:36.066 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.E.studentPage_COUNT            : ==>  Preparing: SELECT count(0) FROM t_exam_paper_question_customer_answer WHERE do_right = FALSE AND create_user = ? 
+2023-04-18 19:17:36.066 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.E.studentPage_COUNT            : ==> Parameters: 3(Integer)
+2023-04-18 19:17:36.096 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.E.studentPage_COUNT            : <==      Total: 1
+2023-04-18 19:17:36.098 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.E.studentPage                  : ==>  Preparing: SELECT id, question_id, exam_paper_id, exam_paper_answer_id, question_type, subject_id, customer_score, question_score, question_text_content_id, answer, text_content_id, do_right, create_user, create_time, item_order FROM t_exam_paper_question_customer_answer WHERE do_right = FALSE AND create_user = ? order by id desc LIMIT ? 
+2023-04-18 19:17:36.098 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.E.studentPage                  : ==> Parameters: 3(Integer), 10(Integer)
+2023-04-18 19:17:36.137 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.E.studentPage                  : <==      Total: 10
+2023-04-18 19:17:36.137 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where id = ? 
+2023-04-18 19:17:36.137 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : ==> Parameters: 2(Integer)
+2023-04-18 19:17:36.168 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:36.170 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:17:36.170 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 12(Integer)
+2023-04-18 19:17:36.203 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:36.204 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where id = ? 
+2023-04-18 19:17:36.204 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : ==> Parameters: 2(Integer)
+2023-04-18 19:17:36.237 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:36.238 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:17:36.238 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 11(Integer)
+2023-04-18 19:17:36.271 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:36.273 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where id = ? 
+2023-04-18 19:17:36.274 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : ==> Parameters: 2(Integer)
+2023-04-18 19:17:36.307 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:36.309 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:17:36.310 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 10(Integer)
+2023-04-18 19:17:36.346 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:36.348 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where id = ? 
+2023-04-18 19:17:36.348 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : ==> Parameters: 2(Integer)
+2023-04-18 19:17:36.380 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:36.381 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:17:36.382 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 8(Integer)
+2023-04-18 19:17:36.416 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:36.416 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where id = ? 
+2023-04-18 19:17:36.417 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : ==> Parameters: 2(Integer)
+2023-04-18 19:17:36.448 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:36.449 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:17:36.449 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 9(Integer)
+2023-04-18 19:17:36.480 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:36.481 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where id = ? 
+2023-04-18 19:17:36.481 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : ==> Parameters: 2(Integer)
+2023-04-18 19:17:36.513 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:36.515 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:17:36.515 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 3(Integer)
+2023-04-18 19:17:36.549 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:36.549 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where id = ? 
+2023-04-18 19:17:36.549 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : ==> Parameters: 2(Integer)
+2023-04-18 19:17:36.581 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:36.582 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:17:36.582 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 4(Integer)
+2023-04-18 19:17:36.615 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:36.615 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where id = ? 
+2023-04-18 19:17:36.615 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : ==> Parameters: 2(Integer)
+2023-04-18 19:17:36.648 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:36.649 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:17:36.649 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 5(Integer)
+2023-04-18 19:17:36.680 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:36.682 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where id = ? 
+2023-04-18 19:17:36.682 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : ==> Parameters: 2(Integer)
+2023-04-18 19:17:36.713 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:36.713 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:17:36.713 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 7(Integer)
+2023-04-18 19:17:36.746 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:36.746 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : ==>  Preparing: select id, name, level, level_name, item_order, deleted from t_subject where id = ? 
+2023-04-18 19:17:36.746 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : ==> Parameters: 2(Integer)
+2023-04-18 19:17:36.779 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.S.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:36.779 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:17:36.780 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 6(Integer)
+2023-04-18 19:17:36.812 DEBUG 84464 --- [XNIO-1 task-58] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:37.143 DEBUG 84464 --- [XNIO-1 task-59] r.c.m.x.r.E.selectByPrimaryKey           : ==>  Preparing: select id, question_id, exam_paper_id, exam_paper_answer_id, question_type, subject_id, customer_score, question_score, question_text_content_id, answer, text_content_id, do_right, create_user, create_time, item_order from t_exam_paper_question_customer_answer where id = ? 
+2023-04-18 19:17:37.144 DEBUG 84464 --- [XNIO-1 task-59] r.c.m.x.r.E.selectByPrimaryKey           : ==> Parameters: 23(Integer)
+2023-04-18 19:17:37.177 DEBUG 84464 --- [XNIO-1 task-59] r.c.m.x.r.E.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:37.178 DEBUG 84464 --- [XNIO-1 task-59] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:17:37.178 DEBUG 84464 --- [XNIO-1 task-59] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 21(Integer)
+2023-04-18 19:17:37.209 DEBUG 84464 --- [XNIO-1 task-59] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:37.210 DEBUG 84464 --- [XNIO-1 task-59] r.c.m.x.r.Q.selectByPrimaryKey           : ==>  Preparing: select id, question_type, subject_id, score, grade_level, difficult, correct, info_text_content_id, create_user, status, create_time, deleted from t_question where id = ? 
+2023-04-18 19:17:37.210 DEBUG 84464 --- [XNIO-1 task-59] r.c.m.x.r.Q.selectByPrimaryKey           : ==> Parameters: 12(Integer)
+2023-04-18 19:17:37.243 DEBUG 84464 --- [XNIO-1 task-59] r.c.m.x.r.Q.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:17:37.244 DEBUG 84464 --- [XNIO-1 task-59] r.c.m.x.r.T.selectByPrimaryKey           : ==>  Preparing: select id, content, create_time from t_text_content where id = ? 
+2023-04-18 19:17:37.244 DEBUG 84464 --- [XNIO-1 task-59] r.c.m.x.r.T.selectByPrimaryKey           : ==> Parameters: 12(Integer)
+2023-04-18 19:17:37.278 DEBUG 84464 --- [XNIO-1 task-59] r.c.m.x.r.T.selectByPrimaryKey           : <==      Total: 1
+2023-04-18 19:19:02.768  INFO 84464 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-18 19:19:02.772  INFO 84464 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-18 19:19:02.773  INFO 84464 --- [Thread-14] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
