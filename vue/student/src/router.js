@@ -17,6 +17,12 @@ const router = new Router({
           component: () => import('@/views/dashboard/index'),
           name: 'Dashboard',
           meta: { title: '首页' }
+        },
+        {
+          path: '/sign',
+          name: 'SignIn',
+          component: () => import('@/views/sign-in/signIn'),
+          meta: { title: '我的考勤' }
         }
       ]
     },

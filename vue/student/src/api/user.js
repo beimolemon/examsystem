@@ -7,5 +7,6 @@ export default {
   update: query => post('/api/student/user/update', query),
   messagePageList: query => post('/api/student/user/message/page', query),
   read: id => post('/api/student/user/message/read/' + id),
-  getMessageCount: () => post('/api/student/user/message/unreadCount')
+  getMessageCount: () => post('/api/student/user/message/unreadCount'),
+  doRecord: query => post('/api/student/record/dorecord', query)
 }

@@ -9,5 +9,8 @@ export default {
   updateUser: query => post('/api/admin/user/update', query),
   changeStatus: id => post('/api/admin/user/changeStatus/' + id),
   deleteUser: id => post('/api/admin/user/delete/' + id),
-  selectByUserName: query => post('/api/admin/user/selectByUserName', query)
+  selectByUserName: query => post('/api/admin/user/selectByUserName', query),
+  createRecord: query => post('/api/admin/record/createrecord', query),
+  getAllRecord: () => post('/api/admin/record/getallrecord'),
+  closeRecord: query => post('/api/admin/record/closerecord', query)
 }

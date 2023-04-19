@@ -184,6 +184,12 @@ const constantRoutes = [
         name: 'EducationSubjectEditPage',
         meta: { title: '学科编辑', noCache: true, activeMenu: '/education/subject/list' },
         hidden: true
+      },
+      {
+        path: 'sign',
+        component: () => import('@/views/education/sign-in/index'),
+        name: 'EducationSignPage',
+        meta: { title: '学生考勤', noCache: true, activeMenu: '/education/sign' }
       }
     ]
   },
